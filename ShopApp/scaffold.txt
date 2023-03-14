@@ -1,0 +1,1 @@
+Scaffold-DbContext 'Data Source=LAPTOP-DJ70UDCI\SQLEXPRESS;Initial Catalog=ShopDB;Integrated security=True' Microsoft.EntityFrameworkCore.SqlServer -Context DefaultDbContext -OutputDir DbModels -StartupProject ShopApp.DAL -Project ShopApp.DAL -Force

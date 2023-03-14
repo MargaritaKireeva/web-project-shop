@@ -31,7 +31,7 @@ CREATE TABLE Books (
   Name nvarchar(100) NOT NULL,
   Author nvarchar(100) NOT NULL,
   Amount int NOT NULL,
-  ReleaseDate date NOT NULL,
+  ReleaseYear nvarchar(4) NOT NULL,
   PagesNumber int NOT NULL,
   AgeRestriction int NOT NULL,
   [Description] nvarchar(1000) NOT NULL,

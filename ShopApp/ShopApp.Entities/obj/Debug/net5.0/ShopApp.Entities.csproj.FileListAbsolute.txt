@@ -1,0 +1,12 @@
+D:\Разработка web-приложений\web-project-shop\ShopApp\ShopApp.Entities\bin\Debug\net5.0\ShopApp.Entities.deps.json
+D:\Разработка web-приложений\web-project-shop\ShopApp\ShopApp.Entities\bin\Debug\net5.0\ShopApp.Entities.dll
+D:\Разработка web-приложений\web-project-shop\ShopApp\ShopApp.Entities\bin\Debug\net5.0\ref\ShopApp.Entities.dll
+D:\Разработка web-приложений\web-project-shop\ShopApp\ShopApp.Entities\bin\Debug\net5.0\ShopApp.Entities.pdb
+D:\Разработка web-приложений\web-project-shop\ShopApp\ShopApp.Entities\obj\Debug\net5.0\ShopApp.Entities.csprojAssemblyReference.cache
+D:\Разработка web-приложений\web-project-shop\ShopApp\ShopApp.Entities\obj\Debug\net5.0\ShopApp.Entities.GeneratedMSBuildEditorConfig.editorconfig
+D:\Разработка web-приложений\web-project-shop\ShopApp\ShopApp.Entities\obj\Debug\net5.0\ShopApp.Entities.AssemblyInfoInputs.cache
+D:\Разработка web-приложений\web-project-shop\ShopApp\ShopApp.Entities\obj\Debug\net5.0\ShopApp.Entities.AssemblyInfo.cs
+D:\Разработка web-приложений\web-project-shop\ShopApp\ShopApp.Entities\obj\Debug\net5.0\ShopApp.Entities.csproj.CoreCompileInputs.cache
+D:\Разработка web-приложений\web-project-shop\ShopApp\ShopApp.Entities\obj\Debug\net5.0\ShopApp.Entities.dll
+D:\Разработка web-приложений\web-project-shop\ShopApp\ShopApp.Entities\obj\Debug\net5.0\ref\ShopApp.Entities.dll
+D:\Разработка web-приложений\web-project-shop\ShopApp\ShopApp.Entities\obj\Debug\net5.0\ShopApp.Entities.pdb
