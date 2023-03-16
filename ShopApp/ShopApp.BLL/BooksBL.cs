@@ -19,5 +19,9 @@ namespace ShopApp.BLL
         {
             return await _booksDAL.GetAllBooksAsync(CategoryID);
         }
+        public async Task<Book> GetByIDAsync(int BookID)
+        {
+            return await _booksDAL.GetByIDAsync(BookID);
+        }
     }
 }

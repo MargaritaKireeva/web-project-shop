@@ -1,0 +1,50 @@
+﻿body {
+   
+}
+.content {
+    
+}
+
+.content__container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width: 1200px) {
+    .content__container {
+        max-width: 720px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .content__container {
+        max-width: 540px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .content__container {
+        max-width: none;
+    }
+}
+.content__charact {
+    margin-left: 20px;
+}
+.content__price {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 36px;
+    margin-top: -300px;
+    display: flex;
+    justify-content: space-between;
+}
+.content__charact__item {
+   
+}

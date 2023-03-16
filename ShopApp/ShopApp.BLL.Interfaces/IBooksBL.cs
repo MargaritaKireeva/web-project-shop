@@ -8,5 +8,6 @@ namespace ShopApp.BLL.Interfaces
     public interface IBooksBL
     {
         public  Task<List<Book>> GetAllBooksAsync(int CategoryID);
+        public Task<Book> GetByIDAsync(int BookID);
     }
 }

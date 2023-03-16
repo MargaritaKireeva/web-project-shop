@@ -8,5 +8,6 @@ namespace ShopApp.DAL.Interfaces
     public interface IBooksDAL
     {
         public Task<List<Book>> GetAllBooksAsync(int CategoryID);
+        public Task<Book> GetByIDAsync(int BookID);
     }
 }

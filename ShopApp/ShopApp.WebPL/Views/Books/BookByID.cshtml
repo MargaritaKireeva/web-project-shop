@@ -1,0 +1,48 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<head>
+    <link rel="stylesheet" href="~/css/BookByIDStyle.css" />
+</head>
+@model BooksModel
+
+@if (Model != null)
+{
+    <div class="content">
+        <h1 class="content__title">@Model.Name</h1>
+        <div class="content__container">
+            <div class="content__img">
+                <img src="@Model.Picture" alt="2405917" border="0">
+            </div>
+
+            <div class="content__charact">
+                <div class="content__charact__item">
+                    <p>Автор: @Model.Author</p>
+                </div>
+                <div class="content__charact__item">
+                    <p>ID товара: @Model.ID</p>
+                </div>
+                <div class="content__charact__item">
+                    <p>Год издания: @Model.ReleaseYear</p>
+                </div>
+                <div class="content__charact__item">
+                    <p>Количество страниц: @Model.PagesNumber</p>
+                </div>
+                <div class="content__charact__item">
+                    <p>Тираж: @Model.Amount</p>
+                </div>
+                <div class="content__charact__item">
+                    <p>Возрастные ограничения: @Model.AgeRestriction+</p>
+                </div>
+                <div class="content__charact__item">
+                    <p>Описание:</p><p>@Model.Description</p>
+                </div>
+            </div>
+            <div class="content__price">
+                <p>@Model.Price ₽</p>
+            </div>
+        </div>
+    </div>
+}

@@ -20,12 +20,18 @@ namespace ShopApp.WebPL.Controllers
             _logger = logger;
             _booksBL = booksBL;
         }
-        [HttpGet]
         public async Task<IActionResult> BooksList(int categoryID)
         {
             var books = await _booksBL.GetAllBooksAsync(categoryID);
             var booksModels = books.Select(BooksModel.FromEntity).ToList();            
             return View(booksModels);
+        }
+
+        public async Task<IActionResult> BookByID(int bookID)
+        {
+            var book = await _booksBL.GetByIDAsync(bookID);
+            var booksModel = BooksModel.FromEntity(book);
+            return View(booksModel);
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

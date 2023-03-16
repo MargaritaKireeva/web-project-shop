@@ -30,5 +30,26 @@ namespace ShopApp.DAL
                 }).Where(item => item.CategoryID == CategoryID).ToList();
             }
         }
+        public async Task<Entities.Book> GetByIDAsync(int BookID)
+        {
+            using (var context = new DefaultDbContext())
+            {
+                var book = context.Books.ToList().Where(book => book.Id == BookID).FirstOrDefault();
+                return new Entities.Book()
+                {
+                    ID = book.Id,
+                    Name = book.Name,
+                    Author = book.Author,
+                    Amount = book.Amount,
+                    ReleaseYear = book.ReleaseYear,
+                    PagesNumber = book.PagesNumber,
+                    AgeRestriction = book.AgeRestriction,
+                    Description = book.Description,
+                    Picture = book.Picture,
+                    Price = book.Price,
+                    CategoryID = book.CategoryId
+                };
+            }
+        }
     }
 }
