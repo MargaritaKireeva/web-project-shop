@@ -224,8 +224,6 @@ namespace ShopApp.DAL.DbModels
 
                 entity.Property(e => e.Birthday).HasColumnType("date");
 
-                entity.Property(e => e.ChatId).HasColumnName("ChatID");
-
                 entity.Property(e => e.Login)
                     .IsRequired()
                     .HasMaxLength(50);
@@ -233,6 +231,10 @@ namespace ShopApp.DAL.DbModels
                 entity.Property(e => e.Name)
                     .IsRequired()
                     .HasMaxLength(100);
+
+                entity.Property(e => e.PhoneNumber)
+                    .IsRequired()
+                    .HasMaxLength(12);
             });
 
             OnModelCreatingPartial(modelBuilder);

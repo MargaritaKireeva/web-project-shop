@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using ShopApp.BLL.Interfaces;
 using ShopApp.WebPL.Models;
@@ -27,9 +28,12 @@ namespace ShopApp.WebPL.Controllers
             var categoriesModels = categories.Select(CategoriesModel.FromEntity).ToList();
             return View(categoriesModels);
         }
-
+        //[Authorize]
         public IActionResult Privacy()
         {
+            //var user = User.Identity.Name;
+            //var claims = User.Claims.ToList();
+
             return View();
         }
 

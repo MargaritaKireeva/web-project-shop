@@ -1,0 +1,68 @@
+﻿@*<div class="row">
+    <div class="col-md-4">
+        <form asp-controller="Users" asp-action="Register" asp-antiforgery="true" method="post">
+            <div class="form-group">
+                <label name="Login">Логин</label>
+                <input type="text" name="login" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label name="PhoneNumber">Номер телефона</label>
+                <input type="tel" name="phoneNumber" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label name="Name">Имя</label>
+                <input type="text" name="name" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label name="Birthday">Дата Рождения</label>
+                <input type="date" name="birthday" class="form-control" />
+            </div>
+            <div class="row">
+                <div class="col-md-6 mx-auto">
+                    <button class="register" asp-area="" asp-controller="Users" asp-action="Register">Зарегистрироваться</button>
+                </div>
+
+            </div>
+        </form>
+    </div>
+</div>*@
+
+@model UsersModel
+
+<div class="row">
+    <div class="col-md-4">
+        <form asp-controller="Users" asp-action="Register" asp-antiforgery="true">
+            <div class="validation" asp-validation-summary="ModelOnly"></div>
+            <div class="form-group">
+                <label asp-for="Login">Логин</label> <br />
+                <input type="text" asp-for="Login" />
+                <span asp-validation-for="Login" />
+            </div>
+            <div class="form-group">
+                <label asp-for="PhoneNumber">Номер телефона</label><br />
+                <input type="tel" asp-for="PhoneNumber" />
+                <span asp-validation-for="PhoneNumber" />
+            </div>
+            <div class="form-group">
+                <label asp-for="Name">Имя</label><br />
+                <input type="text" asp-for="Name" />
+                <span asp-validation-for="Name" />
+            </div>
+            <div class="form-group">
+                <label asp-for="Birthday">Дата Рождения</label><br />
+                <input type="date" asp-for="Birthday" />
+                <span asp-validation-for="Birthday" />
+            </div>
+            <div class="row">
+                <div class="col-md-6 mx-auto">
+                    <div>
+                        <input type="submit" value="Регистрация" />
+                    </div>
+                    @*<button class="btn btn-outline-primary btn-block" type="submit" asp-area="" asp-controller="Users" asp-action="GetPassword">
+                        @Html.ActionLink("Получить пароль", "GetPassword", "Users", new { Model })
+                    </button>*@
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

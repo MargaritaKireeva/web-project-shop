@@ -1,0 +1,75 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Разработка web-приложений\\web-project-shop\\ShopApp\\ShopApp.TelegramMessage\\ShopApp.TelegramMessage.csproj": {}
+  },
+  "projects": {
+    "D:\\Разработка web-приложений\\web-project-shop\\ShopApp\\ShopApp.TelegramMessage\\ShopApp.TelegramMessage.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Разработка web-приложений\\web-project-shop\\ShopApp\\ShopApp.TelegramMessage\\ShopApp.TelegramMessage.csproj",
+        "projectName": "ShopApp.TelegramMessage",
+        "projectPath": "D:\\Разработка web-приложений\\web-project-shop\\ShopApp\\ShopApp.TelegramMessage\\ShopApp.TelegramMessage.csproj",
+        "packagesPath": "C:\\Users\\ritak\\.nuget\\packages\\",
+        "outputPath": "D:\\Разработка web-приложений\\web-project-shop\\ShopApp\\ShopApp.TelegramMessage\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ritak\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "TLSharp": {
+              "target": "Package",
+              "version": "[0.1.0.574, )"
+            },
+            "TLSharp.Core": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

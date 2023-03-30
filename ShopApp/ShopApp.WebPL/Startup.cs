@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -27,10 +28,22 @@ namespace ShopApp.WebPL
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie(options =>
+            {
+                options.LoginPath = "/Users/Login";
+                options.AccessDeniedPath = "/Users/Login";
+                options.ExpireTimeSpan = new TimeSpan(7, 0, 0, 0);
+            });
+
+            services.AddAuthorization();
+
+            services.AddScoped<IUsersBL, UsersBL>();
+            services.AddScoped<IUsersDAL, UsersDAL>();
             services.AddScoped<ICategoriesBL, CategoriesBL>();
             services.AddScoped<ICategoriesDAL, CategoriesDAL>();
             services.AddScoped<IBooksBL, BooksBL>();
             services.AddScoped<IBooksDAL, BooksDAL>();
+
             services.AddControllersWithViews();
         }
 
@@ -52,6 +65,7 @@ namespace ShopApp.WebPL
 
             app.UseRouting();
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>

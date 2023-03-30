@@ -80,3 +80,10 @@ D:\Разработка web-приложений\web-project-shop\ShopApp\ShopAp
 D:\Разработка web-приложений\web-project-shop\ShopApp\ShopApp.WebPL\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 D:\Разработка web-приложений\web-project-shop\ShopApp\ShopApp.WebPL\obj\Debug\net5.0\Razor\Views\Books\BooksList.cshtml.g.cs
 D:\Разработка web-приложений\web-project-shop\ShopApp\ShopApp.WebPL\obj\Debug\net5.0\Razor\Views\Books\BookByID.cshtml.g.cs
+D:\Разработка web-приложений\web-project-shop\ShopApp\ShopApp.WebPL\obj\Debug\net5.0\Razor\Views\Users\Login.cshtml.g.cs
+D:\Разработка web-приложений\web-project-shop\ShopApp\ShopApp.WebPL\obj\Debug\net5.0\Razor\Views\Users\GetPassword.cshtml.g.cs
+D:\Разработка web-приложений\web-project-shop\ShopApp\ShopApp.WebPL\obj\Debug\net5.0\Razor\Views\Users\Register.cshtml.g.cs
+D:\Разработка web-приложений\web-project-shop\ShopApp\ShopApp.WebPL\bin\Debug\net5.0\Telegram.Bot.dll
+D:\Разработка web-приложений\web-project-shop\ShopApp\ShopApp.WebPL\bin\Debug\net5.0\ShopApp.TelegramBot.dll
+D:\Разработка web-приложений\web-project-shop\ShopApp\ShopApp.WebPL\bin\Debug\net5.0\ShopApp.TelegramBot.pdb
+D:\Разработка web-приложений\web-project-shop\ShopApp\ShopApp.WebPL\obj\Debug\net5.0\Razor\Views\Users\UserById.cshtml.g.cs

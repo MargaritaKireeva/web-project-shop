@@ -7,7 +7,7 @@ USE ShopDB
 CREATE TABLE Users (
   ID int IDENTITY(1,1) NOT NULL CONSTRAINT PK_Users PRIMARY KEY,
   [Login] nvarchar(50) NOT NULL,
-  ChatID int NOT NULL,
+  PhoneNumber nvarchar(12) NOT NULL,
   Name nvarchar(100) NOT NULL,
   Birthday date NOT NULL
 );

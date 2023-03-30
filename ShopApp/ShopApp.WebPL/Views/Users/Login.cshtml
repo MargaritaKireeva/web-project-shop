@@ -1,0 +1,20 @@
+﻿﻿<div class="row">
+    <div class="col-md-4">
+        <form asp-controller="Users" asp-action="Login" asp-antiforgery="true" method="post">
+            <div class="form-group">
+                <label>Логин</label> <br />
+                <input type="text" name="login" class="form-control" />
+            </div>
+            <div class="row">
+                <div class="col-md-6 mx-auto">
+                    <button id="submitLogin" class="btn btn-outline-primary btn-block" type="submit">Войти</button>
+                </div>
+
+            </div>
+        </form>
+        Нет аккаунта? <a class="register" asp-area="" asp-controller="Users" asp-action="Register">Зарегистрироваться</a>
+    </div>
+</div>
+
+
+

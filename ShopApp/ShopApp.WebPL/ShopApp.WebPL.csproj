@@ -12,6 +12,7 @@
   <ItemGroup>
     <ProjectReference Include="..\ShopApp.BLL.Interfaces\ShopApp.BLL.Interfaces.csproj" />
     <ProjectReference Include="..\ShopApp.BLL\ShopApp.BLL.csproj" />
+    <ProjectReference Include="..\ShopApp.TelegramMessage\ShopApp.TelegramBot.csproj" />
   </ItemGroup>
 
 </Project>
