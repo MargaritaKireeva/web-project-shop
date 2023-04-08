@@ -10,7 +10,6 @@ D:\Разработка web-приложений\web-project-shop\ShopApp\ShopAp
 D:\Разработка web-приложений\web-project-shop\ShopApp\ShopApp.BLL\bin\Debug\net5.0\ShopApp.DAL.Interfaces.pdb
 D:\Разработка web-приложений\web-project-shop\ShopApp\ShopApp.BLL\bin\Debug\net5.0\ShopApp.DAL.pdb
 D:\Разработка web-приложений\web-project-shop\ShopApp\ShopApp.BLL\bin\Debug\net5.0\ShopApp.Entities.pdb
-D:\Разработка web-приложений\web-project-shop\ShopApp\ShopApp.BLL\obj\Debug\net5.0\ShopApp.BLL.csprojAssemblyReference.cache
 D:\Разработка web-приложений\web-project-shop\ShopApp\ShopApp.BLL\obj\Debug\net5.0\ShopApp.BLL.GeneratedMSBuildEditorConfig.editorconfig
 D:\Разработка web-приложений\web-project-shop\ShopApp\ShopApp.BLL\obj\Debug\net5.0\ShopApp.BLL.AssemblyInfoInputs.cache
 D:\Разработка web-приложений\web-project-shop\ShopApp\ShopApp.BLL\obj\Debug\net5.0\ShopApp.BLL.AssemblyInfo.cs
@@ -19,3 +18,4 @@ D:\Разработка web-приложений\web-project-shop\ShopApp\ShopAp
 D:\Разработка web-приложений\web-project-shop\ShopApp\ShopApp.BLL\obj\Debug\net5.0\ShopApp.BLL.dll
 D:\Разработка web-приложений\web-project-shop\ShopApp\ShopApp.BLL\obj\Debug\net5.0\ref\ShopApp.BLL.dll
 D:\Разработка web-приложений\web-project-shop\ShopApp\ShopApp.BLL\obj\Debug\net5.0\ShopApp.BLL.pdb
+D:\Разработка web-приложений\web-project-shop\ShopApp\ShopApp.BLL\obj\Debug\net5.0\ShopApp.BLL.csproj.AssemblyReference.cache

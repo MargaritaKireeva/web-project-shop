@@ -12,7 +12,6 @@ D:\Разработка web-приложений\web-project-shop\ShopApp\ShopAp
 D:\Разработка web-приложений\web-project-shop\ShopApp\ShopApp.TelegramMessage\bin\Debug\net5.0\ShopApp.DAL.pdb
 D:\Разработка web-приложений\web-project-shop\ShopApp\ShopApp.TelegramMessage\bin\Debug\net5.0\ShopApp.DAL.Interfaces.pdb
 D:\Разработка web-приложений\web-project-shop\ShopApp\ShopApp.TelegramMessage\bin\Debug\net5.0\ShopApp.Entities.pdb
-D:\Разработка web-приложений\web-project-shop\ShopApp\ShopApp.TelegramMessage\obj\Debug\net5.0\ShopApp.TelegramBot.csprojAssemblyReference.cache
 D:\Разработка web-приложений\web-project-shop\ShopApp\ShopApp.TelegramMessage\obj\Debug\net5.0\ShopApp.TelegramBot.GeneratedMSBuildEditorConfig.editorconfig
 D:\Разработка web-приложений\web-project-shop\ShopApp\ShopApp.TelegramMessage\obj\Debug\net5.0\ShopApp.TelegramBot.AssemblyInfoInputs.cache
 D:\Разработка web-приложений\web-project-shop\ShopApp\ShopApp.TelegramMessage\obj\Debug\net5.0\ShopApp.TelegramBot.AssemblyInfo.cs
@@ -21,3 +20,4 @@ D:\Разработка web-приложений\web-project-shop\ShopApp\ShopAp
 D:\Разработка web-приложений\web-project-shop\ShopApp\ShopApp.TelegramMessage\obj\Debug\net5.0\ShopApp.TelegramBot.dll
 D:\Разработка web-приложений\web-project-shop\ShopApp\ShopApp.TelegramMessage\obj\Debug\net5.0\ref\ShopApp.TelegramBot.dll
 D:\Разработка web-приложений\web-project-shop\ShopApp\ShopApp.TelegramMessage\obj\Debug\net5.0\ShopApp.TelegramBot.pdb
+D:\Разработка web-приложений\web-project-shop\ShopApp\ShopApp.TelegramMessage\obj\Debug\net5.0\ShopApp.TelegramBot.csproj.AssemblyReference.cache

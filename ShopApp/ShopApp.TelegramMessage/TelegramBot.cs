@@ -10,7 +10,7 @@ namespace ShopApp.TelegramMessage
 {
     public class TelegramBot
     {
-        private static string token = "";
+        private static string token = "6119381307:AAFqiQmiugEp793IGy1NrTQkYircjRwZ9Lk";
         private static  TelegramBotClient client;
         private static IUsersBL _usersBL { get; set; }
         //private static bool isStarting = false;

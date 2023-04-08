@@ -4,7 +4,6 @@ D:\Разработка web-приложений\web-project-shop\ShopApp\ShopAp
 D:\Разработка web-приложений\web-project-shop\ShopApp\ShopApp.DAL.Interfaces\bin\Debug\net5.0\ShopApp.DAL.Interfaces.pdb
 D:\Разработка web-приложений\web-project-shop\ShopApp\ShopApp.DAL.Interfaces\bin\Debug\net5.0\ShopApp.Entities.dll
 D:\Разработка web-приложений\web-project-shop\ShopApp\ShopApp.DAL.Interfaces\bin\Debug\net5.0\ShopApp.Entities.pdb
-D:\Разработка web-приложений\web-project-shop\ShopApp\ShopApp.DAL.Interfaces\obj\Debug\net5.0\ShopApp.DAL.Interfaces.csprojAssemblyReference.cache
 D:\Разработка web-приложений\web-project-shop\ShopApp\ShopApp.DAL.Interfaces\obj\Debug\net5.0\ShopApp.DAL.Interfaces.GeneratedMSBuildEditorConfig.editorconfig
 D:\Разработка web-приложений\web-project-shop\ShopApp\ShopApp.DAL.Interfaces\obj\Debug\net5.0\ShopApp.DAL.Interfaces.AssemblyInfoInputs.cache
 D:\Разработка web-приложений\web-project-shop\ShopApp\ShopApp.DAL.Interfaces\obj\Debug\net5.0\ShopApp.DAL.Interfaces.AssemblyInfo.cs
@@ -13,3 +12,4 @@ D:\Разработка web-приложений\web-project-shop\ShopApp\ShopAp
 D:\Разработка web-приложений\web-project-shop\ShopApp\ShopApp.DAL.Interfaces\obj\Debug\net5.0\ShopApp.DAL.Interfaces.dll
 D:\Разработка web-приложений\web-project-shop\ShopApp\ShopApp.DAL.Interfaces\obj\Debug\net5.0\ref\ShopApp.DAL.Interfaces.dll
 D:\Разработка web-приложений\web-project-shop\ShopApp\ShopApp.DAL.Interfaces\obj\Debug\net5.0\ShopApp.DAL.Interfaces.pdb
+D:\Разработка web-приложений\web-project-shop\ShopApp\ShopApp.DAL.Interfaces\obj\Debug\net5.0\ShopApp.DAL.Interfaces.csproj.AssemblyReference.cache

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "uydUNnfrYZgxCV3UzQdzzUK6npCUVEl+VGDCDaL/95LwDB0Q+QkD4BYYlN4Vm0VYJ4XYSmZOCnIo63bUkeE12Q==",
+  "dgSpecHash": "P1ihma3J1dgOBKrhnpkqO4ry0Xu9gGjnsSmK7txa3yHg73XmXEti4JY55Fwtj2uCptMF5r37PA3qavCTNMYQoA==",
   "success": true,
   "projectFilePath": "D:\\Разработка web-приложений\\web-project-shop\\ShopApp\\ShopApp.WebPL\\ShopApp.WebPL.csproj",
   "expectedPackageFiles": [
@@ -29,6 +29,7 @@
     "C:\\Users\\ritak\\.nuget\\packages\\microsoft.identitymodel.tokens\\5.6.0\\microsoft.identitymodel.tokens.5.6.0.nupkg.sha512",
     "C:\\Users\\ritak\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\ritak\\.nuget\\packages\\microsoft.netcore.targets\\1.1.3\\microsoft.netcore.targets.1.1.3.nupkg.sha512",
+    "C:\\Users\\ritak\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512",
     "C:\\Users\\ritak\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\ritak\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "C:\\Users\\ritak\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512",

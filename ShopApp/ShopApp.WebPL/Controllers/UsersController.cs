@@ -22,7 +22,8 @@ namespace ShopApp.WebPL.Controllers
         public UsersController(IUsersBL usersBL)
         {
             _usersBL = usersBL;
-            
+            telegramBot = new TelegramBot(_usersBL);
+
         }
         [HttpGet]
         public async Task<IActionResult> GetPassword(string login, string error, string _)
@@ -37,7 +38,7 @@ namespace ShopApp.WebPL.Controllers
         public async Task<IActionResult> GetPassword(string login, string password)
         {
             var user = await _usersBL.GetByLogin(login);
-            telegramBot = new TelegramBot(_usersBL);
+            
             if (user != null && user.Password == password)
             {
                 var identity = new CustomUserIdentity(login, password);

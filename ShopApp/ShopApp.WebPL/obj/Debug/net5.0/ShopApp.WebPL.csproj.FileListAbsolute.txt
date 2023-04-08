@@ -19,7 +19,6 @@ D:\Разработка web-приложений\web-project-shop\ShopApp\ShopAp
 D:\Разработка web-приложений\web-project-shop\ShopApp\ShopApp.WebPL\bin\Debug\net5.0\ShopApp.DAL.pdb
 D:\Разработка web-приложений\web-project-shop\ShopApp\ShopApp.WebPL\bin\Debug\net5.0\ShopApp.DAL.Interfaces.pdb
 D:\Разработка web-приложений\web-project-shop\ShopApp\ShopApp.WebPL\bin\Debug\net5.0\ShopApp.Entities.pdb
-D:\Разработка web-приложений\web-project-shop\ShopApp\ShopApp.WebPL\obj\Debug\net5.0\ShopApp.WebPL.csprojAssemblyReference.cache
 D:\Разработка web-приложений\web-project-shop\ShopApp\ShopApp.WebPL\obj\Debug\net5.0\ShopApp.WebPL.GeneratedMSBuildEditorConfig.editorconfig
 D:\Разработка web-приложений\web-project-shop\ShopApp\ShopApp.WebPL\obj\Debug\net5.0\ShopApp.WebPL.AssemblyInfoInputs.cache
 D:\Разработка web-приложений\web-project-shop\ShopApp\ShopApp.WebPL\obj\Debug\net5.0\ShopApp.WebPL.AssemblyInfo.cs
@@ -87,3 +86,4 @@ D:\Разработка web-приложений\web-project-shop\ShopApp\ShopAp
 D:\Разработка web-приложений\web-project-shop\ShopApp\ShopApp.WebPL\bin\Debug\net5.0\ShopApp.TelegramBot.dll
 D:\Разработка web-приложений\web-project-shop\ShopApp\ShopApp.WebPL\bin\Debug\net5.0\ShopApp.TelegramBot.pdb
 D:\Разработка web-приложений\web-project-shop\ShopApp\ShopApp.WebPL\obj\Debug\net5.0\Razor\Views\Users\UserById.cshtml.g.cs
+D:\Разработка web-приложений\web-project-shop\ShopApp\ShopApp.WebPL\obj\Debug\net5.0\ShopApp.WebPL.csproj.AssemblyReference.cache

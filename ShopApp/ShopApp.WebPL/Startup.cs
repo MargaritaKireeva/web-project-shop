@@ -2,12 +2,14 @@ using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using ShopApp.BLL;
 using ShopApp.BLL.Interfaces;
 using ShopApp.DAL;
+using ShopApp.DAL.DbModels;
 using ShopApp.DAL.Interfaces;
 using System;
 using System.Collections.Generic;
@@ -43,7 +45,7 @@ namespace ShopApp.WebPL
             services.AddScoped<ICategoriesDAL, CategoriesDAL>();
             services.AddScoped<IBooksBL, BooksBL>();
             services.AddScoped<IBooksDAL, BooksDAL>();
-
+            services.AddDbContext<DefaultDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnectionString")));
             services.AddControllersWithViews();
         }
 

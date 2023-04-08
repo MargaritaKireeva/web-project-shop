@@ -1,0 +1,20 @@
+version: '3.4'
+
+services:
+  mssql:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    ports:
+      - 5000:1433
+    volumes:
+      - ./volumes/data:/var/opt/mssql/data
+      - ./volumes/log:/var/opt/mssql/log
+      - ./volumes/secrets:/var/opt/mssql/secrets
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=rita0504!@#
+  ui:
+    build:
+      context: .
+      dockerfile: ShopApp.WebPL/Dockerfile
+    ports:
+      - 5001:80
