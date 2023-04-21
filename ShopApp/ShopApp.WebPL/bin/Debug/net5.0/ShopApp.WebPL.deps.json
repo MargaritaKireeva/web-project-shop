@@ -1356,6 +1356,7 @@
       },
       "ShopApp.TelegramBot/1.0.0": {
         "dependencies": {
+          "RabbitMQ.Client": "6.5.0",
           "ShopApp.BLL": "1.0.0",
           "Telegram.Bot": "18.0.0"
         },

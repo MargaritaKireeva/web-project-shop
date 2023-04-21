@@ -29,6 +29,7 @@ namespace ShopApp.WebPL.Controllers
             telegramBot = new TelegramBot(_usersBL);
             rabbit = SingleRabbitAndRedis.Instance.Rabbit;
             redis = SingleRabbitAndRedis.Instance.Redis;
+            //telegramBot.SendMessageAdminFromRabbitMQ();
 
         }
         [HttpGet]
@@ -68,6 +69,7 @@ namespace ShopApp.WebPL.Controllers
                 }
             }
             rabbit.Send($"Выполнен вход: логин - {login} пароль - {password} ");
+            //telegramBot.SendMessageAdminFromRabbitMQ();
             return RedirectToAction("UserById", "Users", new { user.ID });
         }
         [HttpGet]
@@ -104,6 +106,7 @@ namespace ShopApp.WebPL.Controllers
             await _usersBL.Add(user);
             string message = $"Зарегистрирован пользователь {model.Login}";
             rabbit.Send(message);
+            //telegramBot.SendMessageAdminFromRabbitMQ();
             return RedirectToAction("GetPassword", "Users", new { model.Login });
         }
         [Authorize]
@@ -111,6 +114,7 @@ namespace ShopApp.WebPL.Controllers
         {
             var user = await _usersBL.GetByIDAsync(id);
             var usersModel = UsersModel.FromEntity(user);
+            //telegramBot.SendMessageAdminFromRabbitMQ();
             return View(usersModel);
         }
 

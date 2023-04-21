@@ -1,157 +1,157 @@
-2023-04-19 13:40:38.62 Server      Microsoft SQL Server 2022 (RTM-CU3) (KB5024396) - 16.0.4025.1 (X64) 
+2023-04-21 11:53:47.48 Server      Microsoft SQL Server 2022 (RTM-CU3) (KB5024396) - 16.0.4025.1 (X64) 
 	Mar 13 2023 19:10:08 
 	Copyright (C) 2022 Microsoft Corporation
 	Developer Edition (64-bit) on Linux (Ubuntu 20.04.6 LTS) <X64>
-2023-04-19 13:40:40.02 Server      UTC adjustment: 0:00
-2023-04-19 13:40:40.02 Server      (c) Microsoft Corporation.
-2023-04-19 13:40:40.02 Server      All rights reserved.
-2023-04-19 13:40:40.02 Server      Server process ID is 464.
-2023-04-19 13:40:40.03 Server      Logging SQL Server messages in file '/var/opt/mssql/log/errorlog'.
-2023-04-19 13:40:40.03 Server      Registry startup parameters: 
+2023-04-21 11:53:47.98 Server      UTC adjustment: 0:00
+2023-04-21 11:53:47.98 Server      (c) Microsoft Corporation.
+2023-04-21 11:53:47.98 Server      All rights reserved.
+2023-04-21 11:53:47.98 Server      Server process ID is 472.
+2023-04-21 11:53:47.98 Server      Logging SQL Server messages in file '/var/opt/mssql/log/errorlog'.
+2023-04-21 11:53:47.99 Server      Registry startup parameters: 
 	 -d /var/opt/mssql/data/master.mdf
 	 -l /var/opt/mssql/data/mastlog.ldf
 	 -e /var/opt/mssql/log/errorlog
-2023-04-19 13:40:42.86 Server      SQL Server detected 1 sockets with 4 cores per socket and 8 logical processors per socket, 8 total logical processors; using 8 logical processors based on SQL Server licensing. This is an informational message; no user action is required.
-2023-04-19 13:40:42.86 Server      SQL Server is starting at normal priority base (=7). This is an informational message only. No user action is required.
-2023-04-19 13:40:42.87 Server      Detected 3089 MB of RAM. This is an informational message; no user action is required.
-2023-04-19 13:40:42.87 Server      Using conventional memory in the memory manager.
-2023-04-19 13:40:42.87 Server      Detected pause instruction latency: 31 cycles.
-2023-04-19 13:40:42.99 Server      Page exclusion bitmap is enabled.
-2023-04-19 13:40:44.20 Server      Buffer pool extension is not supported on Linux platform.
-2023-04-19 13:40:44.21 Server      Buffer Pool: Allocating 524288 bytes for 277281 hashPages.
-2023-04-19 13:40:47.38 Server      Buffer pool extension is already disabled. No action is necessary.
-2023-04-19 13:40:51.76 Server      Installing Client TLS certificates to the store.
-2023-04-19 13:40:52.52 Server      Error searching first file in /var/opt/mssql/security/ca-certificates: 3(The system cannot find the path specified.)
-2023-04-19 13:40:52.60 Server      CPU vectorization level(s) detected:  SSE SSE2 SSE3 SSSE3 SSE41 SSE42 AVX AVX2 POPCNT BMI1 BMI2
-2023-04-19 13:41:12.90 Server      Successfully initialized the TLS configuration. Allowed TLS protocol versions are ['1.0 1.1 1.2']. Allowed TLS ciphers are ['ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-ECDSA-AES256-GCM-SHA384:ECDHE-RSA-AES128-GCM-SHA256:ECDHE-RSA-AES256-GCM-SHA384:ECDHE-ECDSA-AES128-SHA256:ECDHE-ECDSA-AES256-SHA384:ECDHE-ECDSA-AES256-SHA:ECDHE-ECDSA-AES128-SHA:AES256-GCM-SHA384:AES128-GCM-SHA256:AES256-SHA256:AES128-SHA256:AES256-SHA:AES128-SHA:!DHE-RSA-AES256-GCM-SHA384:!DHE-RSA-AES128-GCM-SHA256:!DHE-RSA-AES256-SHA:!DHE-RSA-AES128-SHA'].
-2023-04-19 13:41:28.85 Server      Query Store settings initialized with enabled = 1, 
-2023-04-19 13:41:32.96 Server      The maximum number of dedicated administrator connections for this instance is '1'
-2023-04-19 13:41:38.72 Server      Node configuration: node 0: CPU mask: 0x00000000000000ff:0 Active CPU mask: 0x00000000000000ff:0. This message provides a description of the NUMA configuration for this computer. This is an informational message only. No user action is required.
-2023-04-19 13:41:43.38 Server      Using dynamic lock allocation.  Initial allocation of 2500 Lock blocks and 5000 Lock Owner blocks per node.  This is an informational message only.  No user action is required.
-2023-04-19 13:41:54.60 Server      CLR version v4.0.30319 loaded.
-2023-04-19 13:41:54.82 Server      In-Memory OLTP initialized on lowend machine.
-2023-04-19 13:42:01.28 Server      [INFO] Created Extended Events session 'hkenginexesession'
-2023-04-19 13:42:01.32 Server      Database Instant File Initialization: enabled. For security and performance considerations see the topic 'Database Instant File Initialization' in SQL Server Books Online. This is an informational message only. No user action is required.
-2023-04-19 13:42:02.73 Server      Total Log Writer threads: 2, Node CPUs: 4, Nodes: 1, Log Writer threads per CPU: 1, Log Writer threads per Node: 2
-2023-04-19 13:42:02.99 Server      clflushopt is selected for pmem flush operation.
-2023-04-19 13:42:02.99 Server      Software Usage Metrics is disabled.
-2023-04-19 13:42:08.15 spid26s     [1]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1. ConcurrentGAMUpdate: 1. ConcurrentSGAMUpdate: 1, CleanupUnderUserTransaction: 0. TranLevelPVS: 0
-2023-04-19 13:42:09.42 spid26s     Starting up database 'master'.
-2023-04-19 13:42:10.23 Server      Common language runtime (CLR) functionality initialized.
-2023-04-19 13:42:15.21 spid26s     49 transactions rolled forward in database 'master' (1:0). This is an informational message only. No user action is required.
-2023-04-19 13:42:16.72 spid26s     0 transactions rolled back in database 'master' (1:0). This is an informational message only. No user action is required.
-2023-04-19 13:42:16.73 spid26s     Recovery is writing a checkpoint in database 'master' (1). This is an informational message only. No user action is required.
-2023-04-19 13:42:19.08 spid26s     Recovery completed for database master (database ID 1) in 6 second(s) (analysis 456 ms, redo 1062 ms, undo 1196 ms [system undo 0 ms, regular undo 0 ms].) ADR-enabled=0, Is primary=1, OL-Enabled=0. This is an informational message only. No user action is required.
-2023-04-19 13:42:23.61 spid26s     [32762]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1. ConcurrentGAMUpdate: 1. ConcurrentSGAMUpdate: 1, CleanupUnderUserTransaction: 0. TranLevelPVS: 0
-2023-04-19 13:42:23.62 spid26s     Starting up database 'model_replicatedmaster'.
-2023-04-19 13:42:24.45 spid29s     [32767]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1. ConcurrentGAMUpdate: 1. ConcurrentSGAMUpdate: 1, CleanupUnderUserTransaction: 0. TranLevelPVS: 0
-2023-04-19 13:42:24.45 spid29s     Starting up database 'mssqlsystemresource'.
-2023-04-19 13:42:24.49 spid29s     The resource database build version is 16.00.4025. This is an informational message only. No user action is required.
-2023-04-19 13:42:24.88 spid36s     A self-generated certificate was successfully loaded for encryption.
-2023-04-19 13:42:25.04 spid36s     Server is listening on [ 'any' <ipv6> 1433] accept sockets 1.
-2023-04-19 13:42:25.05 spid36s     Server is listening on [ 'any' <ipv4> 1433] accept sockets 1.
-2023-04-19 13:42:25.19 Server      Server is listening on [ ::1 <ipv6> 1434] accept sockets 1.
-2023-04-19 13:42:25.20 Server      Server is listening on [ 127.0.0.1 <ipv4> 1434] accept sockets 1.
-2023-04-19 13:42:25.21 Server      Dedicated admin connection support was established for listening locally on port 1434.
-2023-04-19 13:42:25.32 spid36s     Server is listening on [ ::1 <ipv6> 1431] accept sockets 1.
-2023-04-19 13:42:25.34 spid36s     Server is listening on [ 127.0.0.1 <ipv4> 1431] accept sockets 1.
-2023-04-19 13:42:25.35 spid36s     SQL Server is now ready for client connections. This is an informational message; no user action is required.
-2023-04-19 13:42:27.89 spid29s     [3]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1. ConcurrentGAMUpdate: 1. ConcurrentSGAMUpdate: 1, CleanupUnderUserTransaction: 0. TranLevelPVS: 0
-2023-04-19 13:42:27.91 spid29s     Starting up database 'model'.
-2023-04-19 13:42:28.25 spid26s     Recovery completed for database model_replicatedmaster (database ID 32762) in 3 second(s) (analysis 313 ms, redo 0 ms, undo 2241 ms [system undo 0 ms, regular undo 0 ms].) ADR-enabled=0, Is primary=1, OL-Enabled=0. This is an informational message only. No user action is required.
-2023-04-19 13:42:33.73 spid29s     Recovery completed for database model (database ID 3) in 5 second(s) (analysis 206 ms, redo 0 ms, undo 2468 ms [system undo 0 ms, regular undo 0 ms].) ADR-enabled=0, Is primary=1, OL-Enabled=0. This is an informational message only. No user action is required.
-2023-04-19 13:42:35.18 Server      Long Sync IO: Scheduler 4 had 1 Sync IOs in nonpreemptive mode longer than 1000 ms
-2023-04-19 13:42:40.22 spid26s     [32761]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1. ConcurrentGAMUpdate: 1. ConcurrentSGAMUpdate: 1, CleanupUnderUserTransaction: 0. TranLevelPVS: 0
-2023-04-19 13:42:40.22 spid26s     Starting up database 'model_msdb'.
-2023-04-19 13:42:43.13 spid26s     Recovery completed for database model_msdb (database ID 32761) in 2 second(s) (analysis 330 ms, redo 0 ms, undo 725 ms [system undo 0 ms, regular undo 0 ms].) ADR-enabled=0, Is primary=1, OL-Enabled=0. This is an informational message only. No user action is required.
-2023-04-19 13:42:46.66 spid26s     Resource governor reconfiguration succeeded.
-2023-04-19 13:42:46.73 spid39s     External governance manager initialized
-2023-04-19 13:42:46.74 spid39s     Attribute synchronization manager initialized
-2023-04-19 13:42:46.84 spid26s     SQL Server Audit is starting the audits. This is an informational message. No user action is required.
-2023-04-19 13:42:47.08 spid26s     SQL Server Audit has started the audits. This is an informational message. No user action is required.
-2023-04-19 13:42:47.10 spid26s     XE session 'system_health' started.
-2023-04-19 13:42:48.30 spid26s     XE session 'telemetry_xevents' started.
-2023-04-19 13:42:49.44 spid26s     SQL Trace ID 1 was started by login "sa".
-2023-04-19 13:42:50.39 spid26s     Server name is '43561a1757f0'. This is an informational message only. No user action is required.
-2023-04-19 13:42:52.80 spid29s     Clearing tempdb database.
-2023-04-19 13:42:52.80 spid90s     Always On: The availability replica manager is starting. This is an informational message only. No user action is required.
-2023-04-19 13:42:53.19 spid90s     Always On: The availability replica manager is waiting for the instance of SQL Server to allow client connections. This is an informational message only. No user action is required.
-2023-04-19 13:42:53.19 spid91s     [4]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1. ConcurrentGAMUpdate: 1. ConcurrentSGAMUpdate: 1, CleanupUnderUserTransaction: 0. TranLevelPVS: 0
-2023-04-19 13:42:53.20 spid91s     Starting up database 'msdb'.
-2023-04-19 13:42:54.38 spid27s     Using 'dbghelp.dll' version '4.0.5'
-2023-04-19 13:42:58.03 spid26s     Recovery completed for database msdb (database ID 4) in 4 second(s) (analysis 153 ms, redo 0 ms, undo 1859 ms [system undo 0 ms, regular undo 0 ms].) ADR-enabled=0, Is primary=1, OL-Enabled=0. This is an informational message only. No user action is required.
-2023-04-19 13:43:00.92 spid29s     [2]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1. ConcurrentGAMUpdate: 1. ConcurrentSGAMUpdate: 1, CleanupUnderUserTransaction: 0. TranLevelPVS: 0
-2023-04-19 13:43:00.92 spid29s     Starting up database 'tempdb'.
-2023-04-19 13:43:05.29 Server      Long Sync IO: Scheduler 5 had 1 Sync IOs in nonpreemptive mode longer than 1000 ms
-2023-04-19 13:43:05.80 spid29s     Recovery completed for database tempdb (database ID 2) in 3 second(s) (analysis 2517 ms, redo 0 ms, undo 116 ms [system undo 0 ms, regular undo 0 ms].) ADR-enabled=0, Is primary=1, OL-Enabled=0. This is an informational message only. No user action is required.
-2023-04-19 13:43:10.29 Server      Long Sync IO: Scheduler 5 had 1 Sync IOs in nonpreemptive mode longer than 1000 ms
-2023-04-19 13:43:15.30 Server      Long Sync IO: Scheduler 5 had 1 Sync IOs in nonpreemptive mode longer than 1000 ms
-2023-04-19 13:43:22.19 spid29s     The tempdb database has 8 data file(s).
-2023-04-19 13:43:22.39 spid90s     The Service Broker endpoint is in disabled or stopped state.
-2023-04-19 13:43:22.40 spid90s     The Database Mirroring endpoint is in disabled or stopped state.
-2023-04-19 13:43:22.44 spid90s     Service Broker manager has started.
-2023-04-19 13:43:23.49 spid26s     Recovery is complete. This is an informational message only. No user action is required.
-2023-04-19 13:45:16.27 spid96      XE session 'telemetry_xevents' stopping.
-2023-04-19 13:45:16.43 spid96      XE session 'telemetry_xevents' started.
-2023-04-19 13:45:28.52 spid96      Attempting to load library 'xplog70.dll' into memory. This is an informational message only. No user action is required.
-2023-04-19 13:45:28.56 spid96      Using 'xplog70.dll' version '2022.160.4025' to execute extended stored procedure 'xp_msver'. This is an informational message only; no user action is required.
-2023-04-19 13:45:50.32 Server      Long Sync IO: Scheduler 3 had 2 Sync IOs in nonpreemptive mode longer than 1000 ms
-2023-04-19 13:46:00.48 Server      Long Sync IO: Scheduler 3 had 1 Sync IOs in nonpreemptive mode longer than 1000 ms
-2023-04-19 13:46:05.59 Server      Long Sync IO: Scheduler 3 had 1 Sync IOs in nonpreemptive mode longer than 1000 ms
-2023-04-19 13:51:26.40 spid51      Attempting to load library 'xpsqlbot.dll' into memory. This is an informational message only. No user action is required.
-2023-04-19 13:51:26.41 spid51      Using 'xpsqlbot.dll' version '2022.160.4025' to execute extended stored procedure 'xp_qv'. This is an informational message only; no user action is required.
-2023-04-19 13:53:26.50 Logon       Error: 18456, Severity: 14, State: 38.
-2023-04-19 13:53:26.50 Logon       Login failed for user 'sa'. Reason: Failed to open the explicitly specified database 'ShopDB'. [CLIENT: 172.18.0.3]
-2023-04-19 13:53:37.54 spid58      [5]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1. ConcurrentGAMUpdate: 1. ConcurrentSGAMUpdate: 1, CleanupUnderUserTransaction: 0. TranLevelPVS: 0
-2023-04-19 13:53:37.55 spid58      Starting up database 'ShopDB'.
-2023-04-19 13:53:37.55 spid58      RemoveStaleDbEntries: Cleanup of stale DB entries called for database ID: [5]
-2023-04-19 13:53:37.55 spid58      RemoveStaleDbEntries: Cleanup of stale DB entries skipped because master db is not memory optimized. DbId: 5.
-2023-04-19 13:53:38.66 spid59      XE session 'telemetry_xevents' stopping.
-2023-04-19 13:53:38.88 spid58      Parallel redo is started for database 'ShopDB' with worker pool size [4].
-2023-04-19 13:53:39.05 spid59      XE session 'telemetry_xevents' started.
-2023-04-19 13:53:39.28 spid58      Parallel redo is shutdown for database 'ShopDB' with worker pool size [4].
-2023-04-19 13:53:43.37 spid58       index restored for ShopDB.syspriorities.
-2023-04-19 13:53:43.38 spid58       index restored for ShopDB.sysowners.
-2023-04-19 13:53:43.38 spid58       index restored for ShopDB.sysdbreg.
-2023-04-19 13:53:43.39 spid58       index restored for ShopDB.sysschobjs.
-2023-04-19 13:53:43.40 spid58       index restored for ShopDB.sysextsources.
-2023-04-19 13:53:43.40 spid58       index restored for ShopDB.sysextfileformats.
-2023-04-19 13:53:43.40 spid58       index restored for ShopDB.syscolpars.
-2023-04-19 13:53:43.40 spid58       index restored for ShopDB.sysxlgns.
-2023-04-19 13:53:43.41 spid58       index restored for ShopDB.sysxsrvs.
-2023-04-19 13:53:43.41 spid58       index restored for ShopDB.sysnsobjs.
-2023-04-19 13:53:43.41 spid58       index restored for ShopDB.syscerts.
-2023-04-19 13:53:43.41 spid58       index restored for ShopDB.sysrmtlgns.
-2023-04-19 13:53:43.42 spid58       index restored for ShopDB.sysxprops.
-2023-04-19 13:53:43.42 spid58       index restored for ShopDB.sysscalartypes.
-2023-04-19 13:53:43.42 spid58       index restored for ShopDB.sysidxstats.
-2023-04-19 13:53:43.43 spid58       index restored for ShopDB.sysendpts.
-2023-04-19 13:53:43.43 spid58       index restored for ShopDB.sysclsobjs.
-2023-04-19 13:53:43.43 spid58       index restored for ShopDB.sysremsvcbinds.
-2023-04-19 13:53:43.44 spid58       index restored for ShopDB.sysrts.
-2023-04-19 13:53:43.44 spid58       index restored for ShopDB.sysasymkeys.
-2023-04-19 13:53:43.44 spid58       index restored for ShopDB.syssqlguides.
-2023-04-19 13:53:43.44 spid58       index restored for ShopDB.syssoftobjrefs.
-2023-04-19 13:53:44.17 spid58      Setting database option READ_COMMITTED_SNAPSHOT to ON for database 'ShopDB'.
-2023-04-19 13:53:47.65 spid58      RBPEX::NotifyFileShutdown: Called for database ID: [5], file Id [0]
-2023-04-19 13:53:48.47 spid58      [5]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1. ConcurrentGAMUpdate: 1. ConcurrentSGAMUpdate: 1, CleanupUnderUserTransaction: 0. TranLevelPVS: 0
-2023-04-19 13:53:48.47 spid58      Starting up database 'ShopDB'.
-2023-04-19 13:53:48.47 spid58      RemoveStaleDbEntries: Cleanup of stale DB entries called for database ID: [5]
-2023-04-19 13:53:48.48 spid58      RemoveStaleDbEntries: Cleanup of stale DB entries skipped because master db is not memory optimized. DbId: 5.
-2023-04-19 13:53:49.38 spid58      Parallel redo is started for database 'ShopDB' with worker pool size [4].
-2023-04-19 13:53:51.34 spid5s      Recovery completed for database ShopDB (database ID 5) in 2 second(s) (analysis 3 ms, redo 0 ms, undo 1670 ms [system undo 0 ms, regular undo 0 ms].) ADR-enabled=0, Is primary=1, OL-Enabled=0. This is an informational message only. No user action is required.
-2023-04-19 13:53:51.35 spid5s      Parallel redo is shutdown for database 'ShopDB' with worker pool size [4].
-2023-04-19 14:01:53.13 spid51      Attempting to load library 'xpstar.dll' into memory. This is an informational message only. No user action is required.
-2023-04-19 14:01:53.29 spid51      Using 'xpstar.dll' version '2022.160.4025' to execute extended stored procedure 'xp_instance_regread'. This is an informational message only; no user action is required.
-2023-04-19 14:37:21.49 spid34s     [DevOpsSnapshotTelemetryTask] Evaluating the background task.
-2023-04-19 14:54:08.69 spid55      XE session 'telemetry_xevents' stopping.
-2023-04-19 14:54:08.94 spid55      XE session 'telemetry_xevents' started.
-2023-04-19 15:54:15.68 spid51      XE session 'telemetry_xevents' stopping.
-2023-04-19 15:54:16.07 spid51      XE session 'telemetry_xevents' started.
-2023-04-19 16:54:35.63 spid51      XE session 'telemetry_xevents' stopping.
-2023-04-19 16:54:36.06 spid51      XE session 'telemetry_xevents' started.
-2023-04-19 17:20:49.73 spid26s     Always On: The availability replica manager is going offline because SQL Server is shutting down. This is an informational message only. No user action is required.
-2023-04-19 17:20:50.19 spid26s     SQL Server is terminating in response to a 'stop' request from Service Control Manager. This is an informational message only. No user action is required.
-2023-04-19 17:20:50.30 spid90s     Service Broker manager has shut down.
-2023-04-19 17:20:51.62 spid26s     .NET Framework runtime has been stopped.
-2023-04-19 17:20:56.79 spid26s     RBPEX::NotifyFileShutdown: Called for database ID: [32762], file Id [0]
+2023-04-21 11:53:50.98 Server      SQL Server detected 1 sockets with 4 cores per socket and 8 logical processors per socket, 8 total logical processors; using 8 logical processors based on SQL Server licensing. This is an informational message; no user action is required.
+2023-04-21 11:53:50.99 Server      SQL Server is starting at normal priority base (=7). This is an informational message only. No user action is required.
+2023-04-21 11:53:50.99 Server      Detected 3089 MB of RAM. This is an informational message; no user action is required.
+2023-04-21 11:53:51.00 Server      Using conventional memory in the memory manager.
+2023-04-21 11:53:51.00 Server      Detected pause instruction latency: 18 cycles.
+2023-04-21 11:53:51.41 Server      Page exclusion bitmap is enabled.
+2023-04-21 11:53:53.85 Server      Buffer pool extension is not supported on Linux platform.
+2023-04-21 11:53:53.86 Server      Buffer Pool: Allocating 524288 bytes for 294607 hashPages.
+2023-04-21 11:54:01.20 Server      Buffer pool extension is already disabled. No action is necessary.
+2023-04-21 11:54:07.55 Server      Installing Client TLS certificates to the store.
+2023-04-21 11:54:07.56 Server      Error searching first file in /var/opt/mssql/security/ca-certificates: 3(The system cannot find the path specified.)
+2023-04-21 11:54:07.57 Server      CPU vectorization level(s) detected:  SSE SSE2 SSE3 SSSE3 SSE41 SSE42 AVX AVX2 POPCNT BMI1 BMI2
+2023-04-21 11:54:17.60 Server      Successfully initialized the TLS configuration. Allowed TLS protocol versions are ['1.0 1.1 1.2']. Allowed TLS ciphers are ['ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-ECDSA-AES256-GCM-SHA384:ECDHE-RSA-AES128-GCM-SHA256:ECDHE-RSA-AES256-GCM-SHA384:ECDHE-ECDSA-AES128-SHA256:ECDHE-ECDSA-AES256-SHA384:ECDHE-ECDSA-AES256-SHA:ECDHE-ECDSA-AES128-SHA:AES256-GCM-SHA384:AES128-GCM-SHA256:AES256-SHA256:AES128-SHA256:AES256-SHA:AES128-SHA:!DHE-RSA-AES256-GCM-SHA384:!DHE-RSA-AES128-GCM-SHA256:!DHE-RSA-AES256-SHA:!DHE-RSA-AES128-SHA'].
+2023-04-21 11:54:29.66 Server      Query Store settings initialized with enabled = 1, 
+2023-04-21 11:54:32.19 Server      The maximum number of dedicated administrator connections for this instance is '1'
+2023-04-21 11:54:34.32 Server      Node configuration: node 0: CPU mask: 0x00000000000000ff:0 Active CPU mask: 0x00000000000000ff:0. This message provides a description of the NUMA configuration for this computer. This is an informational message only. No user action is required.
+2023-04-21 11:54:35.70 Server      Using dynamic lock allocation.  Initial allocation of 2500 Lock blocks and 5000 Lock Owner blocks per node.  This is an informational message only.  No user action is required.
+2023-04-21 11:54:38.23 Server      In-Memory OLTP initialized on lowend machine.
+2023-04-21 11:54:42.26 Server      CLR version v4.0.30319 loaded.
+2023-04-21 11:54:42.98 Server      [INFO] Created Extended Events session 'hkenginexesession'
+2023-04-21 11:54:42.99 Server      Database Instant File Initialization: enabled. For security and performance considerations see the topic 'Database Instant File Initialization' in SQL Server Books Online. This is an informational message only. No user action is required.
+2023-04-21 11:54:44.80 Server      Total Log Writer threads: 2, Node CPUs: 4, Nodes: 1, Log Writer threads per CPU: 1, Log Writer threads per Node: 2
+2023-04-21 11:54:44.80 Server      Common language runtime (CLR) functionality initialized.
+2023-04-21 11:54:45.49 Server      clflushopt is selected for pmem flush operation.
+2023-04-21 11:54:45.52 Server      Software Usage Metrics is disabled.
+2023-04-21 11:54:47.55 spid27s     [1]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1. ConcurrentGAMUpdate: 1. ConcurrentSGAMUpdate: 1, CleanupUnderUserTransaction: 0. TranLevelPVS: 0
+2023-04-21 11:54:48.82 spid27s     Starting up database 'master'.
+2023-04-21 11:54:56.91 spid27s     66 transactions rolled forward in database 'master' (1:0). This is an informational message only. No user action is required.
+2023-04-21 11:55:02.29 spid27s     0 transactions rolled back in database 'master' (1:0). This is an informational message only. No user action is required.
+2023-04-21 11:55:02.30 spid27s     Recovery is writing a checkpoint in database 'master' (1). This is an informational message only. No user action is required.
+2023-04-21 11:55:04.05 spid27s     Recovery completed for database master (database ID 1) in 11 second(s) (analysis 702 ms, redo 2723 ms, undo 4086 ms [system undo 0 ms, regular undo 0 ms].) ADR-enabled=0, Is primary=1, OL-Enabled=0. This is an informational message only. No user action is required.
+2023-04-21 11:55:09.14 Server      Long Sync IO: Scheduler 2 had 1 Sync IOs in nonpreemptive mode longer than 1000 ms
+2023-04-21 11:55:12.75 spid27s     [32762]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1. ConcurrentGAMUpdate: 1. ConcurrentSGAMUpdate: 1, CleanupUnderUserTransaction: 0. TranLevelPVS: 0
+2023-04-21 11:55:12.76 spid27s     Starting up database 'model_replicatedmaster'.
+2023-04-21 11:55:13.93 spid29s     [32767]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1. ConcurrentGAMUpdate: 1. ConcurrentSGAMUpdate: 1, CleanupUnderUserTransaction: 0. TranLevelPVS: 0
+2023-04-21 11:55:13.94 spid29s     Starting up database 'mssqlsystemresource'.
+2023-04-21 11:55:14.10 spid29s     The resource database build version is 16.00.4025. This is an informational message only. No user action is required.
+2023-04-21 11:55:14.19 spid36s     A self-generated certificate was successfully loaded for encryption.
+2023-04-21 11:55:14.86 spid36s     Server is listening on [ 'any' <ipv6> 1433] accept sockets 1.
+2023-04-21 11:55:14.87 spid36s     Server is listening on [ 'any' <ipv4> 1433] accept sockets 1.
+2023-04-21 11:55:14.88 Server      Server is listening on [ ::1 <ipv6> 1434] accept sockets 1.
+2023-04-21 11:55:14.88 Server      Server is listening on [ 127.0.0.1 <ipv4> 1434] accept sockets 1.
+2023-04-21 11:55:14.89 Server      Dedicated admin connection support was established for listening locally on port 1434.
+2023-04-21 11:55:14.89 spid36s     Server is listening on [ ::1 <ipv6> 1431] accept sockets 1.
+2023-04-21 11:55:14.90 spid36s     Server is listening on [ 127.0.0.1 <ipv4> 1431] accept sockets 1.
+2023-04-21 11:55:14.90 spid36s     SQL Server is now ready for client connections. This is an informational message; no user action is required.
+2023-04-21 11:55:16.78 spid29s     [3]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1. ConcurrentGAMUpdate: 1. ConcurrentSGAMUpdate: 1, CleanupUnderUserTransaction: 0. TranLevelPVS: 0
+2023-04-21 11:55:16.78 spid29s     Starting up database 'model'.
+2023-04-21 11:55:18.33 spid27s     Recovery completed for database model_replicatedmaster (database ID 32762) in 3 second(s) (analysis 115 ms, redo 0 ms, undo 2026 ms [system undo 0 ms, regular undo 0 ms].) ADR-enabled=0, Is primary=1, OL-Enabled=0. This is an informational message only. No user action is required.
+2023-04-21 11:55:24.15 Server      Long Sync IO: Scheduler 4 had 1 Sync IOs in nonpreemptive mode longer than 1000 ms
+2023-04-21 11:55:24.70 spid29s     Recovery completed for database model (database ID 3) in 6 second(s) (analysis 862 ms, redo 0 ms, undo 2527 ms [system undo 0 ms, regular undo 0 ms].) ADR-enabled=0, Is primary=1, OL-Enabled=0. This is an informational message only. No user action is required.
+2023-04-21 11:55:29.15 Server      Long Sync IO: Scheduler 4 had 2 Sync IOs in nonpreemptive mode longer than 1000 ms
+2023-04-21 11:55:33.99 Server      Long Sync IO: Scheduler 4 had 2 Sync IOs in nonpreemptive mode longer than 1000 ms
+2023-04-21 11:55:39.00 Server      Long Sync IO: Scheduler 2 had 1 Sync IOs in nonpreemptive mode longer than 1000 ms
+2023-04-21 11:55:39.01 Server      Long Sync IO: Scheduler 4 had 1 Sync IOs in nonpreemptive mode longer than 1000 ms
+2023-04-21 11:55:41.04 spid27s     [32761]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1. ConcurrentGAMUpdate: 1. ConcurrentSGAMUpdate: 1, CleanupUnderUserTransaction: 0. TranLevelPVS: 0
+2023-04-21 11:55:41.05 spid27s     Starting up database 'model_msdb'.
+2023-04-21 11:55:49.46 spid27s     Recovery completed for database model_msdb (database ID 32761) in 5 second(s) (analysis 290 ms, redo 822 ms, undo 2525 ms [system undo 0 ms, regular undo 0 ms].) ADR-enabled=0, Is primary=1, OL-Enabled=0. This is an informational message only. No user action is required.
+2023-04-21 11:55:54.01 Server      Long Sync IO: Scheduler 2 had 2 Sync IOs in nonpreemptive mode longer than 1000 ms
+2023-04-21 11:55:55.82 spid45s     External governance manager initialized
+2023-04-21 11:55:55.82 spid45s     Attribute synchronization manager initialized
+2023-04-21 11:55:55.82 spid27s     Resource governor reconfiguration succeeded.
+2023-04-21 11:55:55.83 spid27s     SQL Server Audit is starting the audits. This is an informational message. No user action is required.
+2023-04-21 11:55:56.97 spid27s     SQL Server Audit has started the audits. This is an informational message. No user action is required.
+2023-04-21 11:55:57.46 spid27s     XE session 'system_health' started.
+2023-04-21 11:55:59.12 spid27s     XE session 'telemetry_xevents' started.
+2023-04-21 11:55:59.83 spid27s     SQL Trace ID 1 was started by login "sa".
+2023-04-21 11:56:02.45 spid27s     Server name is '43561a1757f0'. This is an informational message only. No user action is required.
+2023-04-21 11:56:02.48 spid29s     Clearing tempdb database.
+2023-04-21 11:56:02.48 spid102s    Always On: The availability replica manager is starting. This is an informational message only. No user action is required.
+2023-04-21 11:56:02.48 spid98s     [4]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1. ConcurrentGAMUpdate: 1. ConcurrentSGAMUpdate: 1, CleanupUnderUserTransaction: 0. TranLevelPVS: 0
+2023-04-21 11:56:02.48 spid99s     [5]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1. ConcurrentGAMUpdate: 1. ConcurrentSGAMUpdate: 1, CleanupUnderUserTransaction: 0. TranLevelPVS: 0
+2023-04-21 11:56:02.49 spid102s    Always On: The availability replica manager is waiting for the instance of SQL Server to allow client connections. This is an informational message only. No user action is required.
+2023-04-21 11:56:02.49 spid98s     Starting up database 'msdb'.
+2023-04-21 11:56:02.49 spid99s     Starting up database 'ShopDB'.
+2023-04-21 11:56:02.50 spid99s     RemoveStaleDbEntries: Cleanup of stale DB entries called for database ID: [5]
+2023-04-21 11:56:02.51 spid99s     RemoveStaleDbEntries: Cleanup of stale DB entries skipped because master db is not memory optimized. DbId: 5.
+2023-04-21 11:56:03.97 Server      Long Sync IO: Scheduler 2 had 2 Sync IOs in nonpreemptive mode longer than 1000 ms
+2023-04-21 11:56:06.14 spid26s     Using 'dbghelp.dll' version '4.0.5'
+2023-04-21 11:56:06.73 spid99s     Parallel redo is started for database 'ShopDB' with worker pool size [4].
+2023-04-21 11:56:07.01 spid98s     1 transactions rolled forward in database 'msdb' (4:0). This is an informational message only. No user action is required.
+2023-04-21 11:56:08.98 Server      Long Sync IO: Scheduler 0 had 1 Sync IOs in nonpreemptive mode longer than 1000 ms
+2023-04-21 11:56:10.95 spid99s     181 transactions rolled forward in database 'ShopDB' (5:0). This is an informational message only. No user action is required.
+2023-04-21 11:56:17.56 spid27s     0 transactions rolled back in database 'msdb' (4:0). This is an informational message only. No user action is required.
+2023-04-21 11:56:17.58 spid27s     Recovery completed for database msdb (database ID 4) in 12 second(s) (analysis 258 ms, redo 0 ms, undo 9275 ms [system undo 0 ms, regular undo 0 ms].) ADR-enabled=0, Is primary=1, OL-Enabled=0. This is an informational message only. No user action is required.
+2023-04-21 11:56:18.69 spid27s     0 transactions rolled back in database 'ShopDB' (5:0). This is an informational message only. No user action is required.
+2023-04-21 11:56:18.70 spid27s     Recovery completed for database ShopDB (database ID 5) in 12 second(s) (analysis 2258 ms, redo 1946 ms, undo 7407 ms [system undo 0 ms, regular undo 0 ms].) ADR-enabled=0, Is primary=1, OL-Enabled=0. This is an informational message only. No user action is required.
+2023-04-21 11:56:18.88 spid27s     Parallel redo is shutdown for database 'ShopDB' with worker pool size [4].
+2023-04-21 11:56:18.99 Server      Long Sync IO: Scheduler 0 had 2 Sync IOs in nonpreemptive mode longer than 1000 ms
+2023-04-21 11:56:18.99 Server      Long Sync IO: Scheduler 4 had 1 Sync IOs in nonpreemptive mode longer than 1000 ms
+2023-04-21 11:56:19.00 Server      Long Sync IO: Scheduler 6 had 1 Sync IOs in nonpreemptive mode longer than 1000 ms
+2023-04-21 11:56:20.94 spid29s     [2]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1. ConcurrentGAMUpdate: 1. ConcurrentSGAMUpdate: 1, CleanupUnderUserTransaction: 0. TranLevelPVS: 0
+2023-04-21 11:56:20.95 spid29s     Starting up database 'tempdb'.
+2023-04-21 11:56:24.01 Server      Long Sync IO: Scheduler 0 had 1 Sync IOs in nonpreemptive mode longer than 1000 ms
+2023-04-21 11:56:24.02 Server      Long Sync IO: Scheduler 6 had 2 Sync IOs in nonpreemptive mode longer than 1000 ms
+2023-04-21 11:56:29.03 Server      Long Sync IO: Scheduler 6 had 3 Sync IOs in nonpreemptive mode longer than 1000 ms
+2023-04-21 11:56:34.04 Server      Long Sync IO: Scheduler 6 had 2 Sync IOs in nonpreemptive mode longer than 1000 ms
+2023-04-21 11:56:39.05 Server      Long Sync IO: Scheduler 4 had 1 Sync IOs in nonpreemptive mode longer than 1000 ms
+2023-04-21 11:56:39.06 Server      Long Sync IO: Scheduler 6 had 3 Sync IOs in nonpreemptive mode longer than 1000 ms
+2023-04-21 11:56:40.38 spid29s     The tempdb database has 8 data file(s).
+2023-04-21 11:56:40.72 spid99s     The Service Broker endpoint is in disabled or stopped state.
+2023-04-21 11:56:40.73 spid99s     The Database Mirroring endpoint is in disabled or stopped state.
+2023-04-21 11:56:40.77 spid99s     Service Broker manager has started.
+2023-04-21 11:56:41.86 spid27s     Recovery is complete. This is an informational message only. No user action is required.
+2023-04-21 11:56:44.06 Server      Long Sync IO: Scheduler 0 had 1 Sync IOs in nonpreemptive mode longer than 1000 ms
+2023-04-21 11:56:44.07 Server      Long Sync IO: Scheduler 1 had 1 Sync IOs in nonpreemptive mode longer than 1000 ms
+2023-04-21 11:56:44.07 Server      Long Sync IO: Scheduler 6 had 1 Sync IOs in nonpreemptive mode longer than 1000 ms
+2023-04-21 11:56:49.07 Server      Long Sync IO: Scheduler 3 had 2 Sync IOs in nonpreemptive mode longer than 1000 ms
+2023-04-21 11:56:49.08 Server      Long Sync IO: Scheduler 5 had 2 Sync IOs in nonpreemptive mode longer than 1000 ms
+2023-04-21 11:56:54.09 Server      Long Sync IO: Scheduler 1 had 2 Sync IOs in nonpreemptive mode longer than 1000 ms
+2023-04-21 11:56:54.10 Server      Long Sync IO: Scheduler 5 had 1 Sync IOs in nonpreemptive mode longer than 1000 ms
+2023-04-21 11:57:49.00 Server      Long Sync IO: Scheduler 5 had 1 Sync IOs in nonpreemptive mode longer than 1000 ms
+2023-04-21 11:57:58.49 spid98      XE session 'telemetry_xevents' stopping.
+2023-04-21 11:57:58.76 spid98      XE session 'telemetry_xevents' started.
+2023-04-21 11:57:59.02 Server      Long Sync IO: Scheduler 5 had 2 Sync IOs in nonpreemptive mode longer than 1000 ms
+2023-04-21 11:58:09.03 Server      Long Sync IO: Scheduler 1 had 1 Sync IOs in nonpreemptive mode longer than 1000 ms
+2023-04-21 11:58:17.65 spid98      Attempting to load library 'xplog70.dll' into memory. This is an informational message only. No user action is required.
+2023-04-21 11:58:18.27 spid98      Using 'xplog70.dll' version '2022.160.4025' to execute extended stored procedure 'xp_msver'. This is an informational message only; no user action is required.
+2023-04-21 11:58:49.04 Server      Long Sync IO: Scheduler 5 had 1 Sync IOs in nonpreemptive mode longer than 1000 ms
+2023-04-21 11:58:59.05 Server      Long Sync IO: Scheduler 5 had 2 Sync IOs in nonpreemptive mode longer than 1000 ms
+2023-04-21 11:59:54.06 Server      Long Sync IO: Scheduler 5 had 2 Sync IOs in nonpreemptive mode longer than 1000 ms
+2023-04-21 11:59:59.06 Server      Long Sync IO: Scheduler 5 had 2 Sync IOs in nonpreemptive mode longer than 1000 ms
+2023-04-21 12:01:03.99 Server      Long Sync IO: Scheduler 5 had 2 Sync IOs in nonpreemptive mode longer than 1000 ms
+2023-04-21 12:01:09.00 Server      Long Sync IO: Scheduler 5 had 1 Sync IOs in nonpreemptive mode longer than 1000 ms
+2023-04-21 12:01:14.00 Server      Long Sync IO: Scheduler 5 had 2 Sync IOs in nonpreemptive mode longer than 1000 ms
+2023-04-21 12:01:43.99 Server      Long Sync IO: Scheduler 5 had 1 Sync IOs in nonpreemptive mode longer than 1000 ms
+2023-04-21 12:02:14.00 Server      Long Sync IO: Scheduler 5 had 1 Sync IOs in nonpreemptive mode longer than 1000 ms
+2023-04-21 12:02:24.01 Server      Long Sync IO: Scheduler 5 had 1 Sync IOs in nonpreemptive mode longer than 1000 ms
+2023-04-21 12:02:54.01 Server      Long Sync IO: Scheduler 5 had 1 Sync IOs in nonpreemptive mode longer than 1000 ms
+2023-04-21 12:03:14.01 Server      Long Sync IO: Scheduler 5 had 3 Sync IOs in nonpreemptive mode longer than 1000 ms
+2023-04-21 12:09:23.79 spid98      XE session 'telemetry_xevents' stopping.
+2023-04-21 12:09:24.21 spid98      XE session 'telemetry_xevents' started.
+2023-04-21 12:37:04.36 Server      Long Sync IO: Scheduler 1 had 2 Sync IOs in nonpreemptive mode longer than 1000 ms
+2023-04-21 12:37:14.78 Server      Long Sync IO: Scheduler 1 had 2 Sync IOs in nonpreemptive mode longer than 1000 ms
+2023-04-21 12:37:19.78 Server      Long Sync IO: Scheduler 1 had 3 Sync IOs in nonpreemptive mode longer than 1000 ms
+2023-04-21 12:38:24.62 spid59      Attempting to load library 'xpsqlbot.dll' into memory. This is an informational message only. No user action is required.
+2023-04-21 12:38:24.63 spid59      Using 'xpsqlbot.dll' version '2022.160.4025' to execute extended stored procedure 'xp_qv'. This is an informational message only; no user action is required.
+2023-04-21 12:50:28.33 spid7s      [DevOpsSnapshotTelemetryTask] Evaluating the background task.
+2023-04-21 13:09:58.47 spid51      XE session 'telemetry_xevents' stopping.
+2023-04-21 13:09:59.03 spid51      XE session 'telemetry_xevents' started.
+2023-04-21 14:10:14.26 spid51      XE session 'telemetry_xevents' stopping.
+2023-04-21 14:10:14.66 spid51      XE session 'telemetry_xevents' started.
+2023-04-21 15:10:47.27 spid51      XE session 'telemetry_xevents' stopping.
+2023-04-21 15:10:47.83 spid51      XE session 'telemetry_xevents' started.

@@ -5,6 +5,9 @@ using System.Threading;
 using System.Threading.Tasks;
 using Telegram.Bot;
 using Telegram.Bot.Types;
+using RabbitMQ.Client;
+using RabbitMQ.Client.Events;
+using System.Text;
 
 namespace ShopApp.TelegramMessage
 {
@@ -13,6 +16,7 @@ namespace ShopApp.TelegramMessage
         private static string token = "6119381307:AAFqiQmiugEp793IGy1NrTQkYircjRwZ9Lk";
         private static  TelegramBotClient client;
         private static IUsersBL _usersBL { get; set; }
+        //private static long adminChatId = 974109776;
         //private static bool isStarting = false;
 
         public TelegramBot(IUsersBL usersBL)
@@ -31,7 +35,32 @@ namespace ShopApp.TelegramMessage
 
         //    Console.ReadLine();
         //}
+        ////public void SendMessageAdminFromRabbitMQ()
+        ////{
+        ////    var factory = new ConnectionFactory()
+        ////    {
+        ////        HostName = "localhost",
+        ////        UserName = "guest",
+        ////        Password = "guest",
+        ////    };
 
+        ////    const string QUEUE = "NOTIFICATION_QUEUE";
+
+        ////    using (var connection = factory.CreateConnection())
+        ////    using (var channel = connection.CreateModel())
+        ////    {
+        ////        var consumer = new EventingBasicConsumer(channel);
+        ////        consumer.Received += (model, ea) =>
+        ////        {
+        ////            var body = ea.Body.ToArray();
+        ////            var message = Encoding.UTF8.GetString(body);
+        ////            client.SendTextMessageAsync(adminChatId, message);
+        ////        };
+        ////        channel.BasicConsume(queue: QUEUE,
+        ////                             autoAck: true,
+        ////                             consumer: consumer);
+        ////    }
+        ////}
         async static Task Update(ITelegramBotClient botClient, Update update, CancellationToken token)
         {
             var message = update.Message;
@@ -44,6 +73,36 @@ namespace ShopApp.TelegramMessage
                         //isStarting = true;                       
                         break;
                     }
+                //case "/admin":
+                //    {
+                //        var factory = new ConnectionFactory()
+                //        {
+                //            HostName = "localhost",
+                //            UserName = "guest",
+                //            Password = "guest",
+                //        };
+
+                //        const string QUEUE = "NOTIFICATION_QUEUE";
+
+                //        using (var connection = factory.CreateConnection())
+                //        using (var channel = connection.CreateModel())
+                //        {
+                //            var consumer = new EventingBasicConsumer(channel);
+                //            var messageAdmin = "";
+                //            consumer.Received += (model, ea) =>
+                //            {
+                //                var body = ea.Body.ToArray();
+                //                messageAdmin = Encoding.UTF8.GetString(body);
+                //                client.SendTextMessageAsync(adminChatId, messageAdmin);
+                //            };
+
+                //            channel.BasicConsume(queue: QUEUE,
+                //                                 autoAck: true,
+                //                                 consumer: consumer);
+
+                //        }
+                //        break;
+                //    }
                 default:
                     {
                         string login = message.Text;
