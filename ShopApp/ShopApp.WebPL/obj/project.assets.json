@@ -332,6 +332,21 @@
           "lib/netstandard2.0/Microsoft.IdentityModel.Tokens.dll": {}
         }
       },
+      "Microsoft.NET.Sdk.Razor/3.1.32": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/_._": {}
+        },
+        "build": {
+          "build/netstandard2.0/Microsoft.NET.Sdk.Razor.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Microsoft.NET.Sdk.Razor.props": {}
+        }
+      },
       "Microsoft.NETCore.Platforms/3.1.0": {
         "type": "package",
         "compile": {
@@ -407,6 +422,31 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
+      "Pipelines.Sockets.Unofficial/2.2.2": {
+        "type": "package",
+        "dependencies": {
+          "System.IO.Pipelines": "5.0.1"
+        },
+        "compile": {
+          "lib/net5.0/Pipelines.Sockets.Unofficial.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Pipelines.Sockets.Unofficial.dll": {}
+        }
+      },
+      "RabbitMQ.Client/6.5.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.5",
+          "System.Threading.Channels": "7.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/RabbitMQ.Client.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/RabbitMQ.Client.dll": {}
+        }
+      },
       "runtime.native.System/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -418,6 +458,18 @@
         },
         "runtime": {
           "lib/netstandard1.0/_._": {}
+        }
+      },
+      "StackExchange.Redis/2.6.104": {
+        "type": "package",
+        "dependencies": {
+          "Pipelines.Sockets.Unofficial": "2.2.2"
+        },
+        "compile": {
+          "lib/net5.0/StackExchange.Redis.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/StackExchange.Redis.dll": {}
         }
       },
       "System.Collections/4.3.0": {
@@ -725,6 +777,15 @@
           "lib/netstandard1.3/System.IO.FileSystem.Primitives.dll": {}
         }
       },
+      "System.IO.Pipelines/5.0.1": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/System.IO.Pipelines.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/System.IO.Pipelines.dll": {}
+        }
+      },
       "System.Linq/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -739,6 +800,15 @@
         },
         "runtime": {
           "lib/netstandard1.6/System.Linq.dll": {}
+        }
+      },
+      "System.Memory/4.5.5": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.1/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/_._": {}
         }
       },
       "System.Net.NameResolution/4.3.0": {
@@ -1234,6 +1304,18 @@
         },
         "runtime": {
           "lib/netstandard1.3/System.Threading.dll": {}
+        }
+      },
+      "System.Threading.Channels/7.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/System.Threading.Channels.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/System.Threading.Channels.dll": {}
+        },
+        "build": {
+          "buildTransitive/netcoreapp2.0/System.Threading.Channels.targets": {}
         }
       },
       "System.Threading.Tasks/4.3.0": {
@@ -2027,6 +2109,83 @@
         "microsoft.identitymodel.tokens.nuspec"
       ]
     },
+    "Microsoft.NET.Sdk.Razor/3.1.32": {
+      "sha512": "9/DyCcwqIjP70i44qVR1Az/5+teybsaGpqgUdadU9++N0YeSTpZCBxczTgaKN+zArzC2/8uvHDKdqqvHoCK4Kg==",
+      "type": "package",
+      "path": "microsoft.net.sdk.razor/3.1.32",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "Sdk/Sdk.Razor.StaticAssets.ProjectSystem.props",
+        "Sdk/Sdk.props",
+        "Sdk/Sdk.targets",
+        "build/netstandard2.0/Microsoft.NET.Sdk.Razor.CodeGeneration.targets",
+        "build/netstandard2.0/Microsoft.NET.Sdk.Razor.Compilation.targets",
+        "build/netstandard2.0/Microsoft.NET.Sdk.Razor.Component.targets",
+        "build/netstandard2.0/Microsoft.NET.Sdk.Razor.Configuration.targets",
+        "build/netstandard2.0/Microsoft.NET.Sdk.Razor.DesignTime.targets",
+        "build/netstandard2.0/Microsoft.NET.Sdk.Razor.GenerateAssemblyInfo.targets",
+        "build/netstandard2.0/Microsoft.NET.Sdk.Razor.MvcApplicationPartsDiscovery.targets",
+        "build/netstandard2.0/Microsoft.NET.Sdk.Razor.StaticWebAssets.targets",
+        "build/netstandard2.0/Microsoft.NET.Sdk.Razor.props",
+        "build/netstandard2.0/Rules/RazorComponentWithTargetPath.xaml",
+        "build/netstandard2.0/Rules/RazorConfiguration.xaml",
+        "build/netstandard2.0/Rules/RazorExtension.xaml",
+        "build/netstandard2.0/Rules/RazorGeneral.xaml",
+        "build/netstandard2.0/Rules/RazorGenerateWithTargetPath.xaml",
+        "build/netstandard2.0/Sdk.Razor.CurrentVersion.props",
+        "build/netstandard2.0/Sdk.Razor.CurrentVersion.targets",
+        "buildMultiTargeting/Microsoft.NET.Sdk.Razor.props",
+        "buildMultiTargeting/Sdk.Razor.CurrentVersion.MultiTargeting.targets",
+        "extensions/mvc-3-0/Microsoft.AspNetCore.Mvc.Razor.Extensions.dll",
+        "lib/netstandard2.0/_._",
+        "microsoft.net.sdk.razor.3.1.32.nupkg.sha512",
+        "microsoft.net.sdk.razor.nuspec",
+        "tasks/net46/Microsoft.NET.Sdk.Razor.Tasks.dll",
+        "tasks/net46/System.Collections.Immutable.dll",
+        "tasks/net46/System.Reflection.Metadata.dll",
+        "tasks/netcoreapp3.1/Microsoft.NET.Sdk.Razor.Tasks.dll",
+        "tools/netcoreapp3.0/Microsoft.AspNetCore.Razor.Language.dll",
+        "tools/netcoreapp3.0/Microsoft.AspNetCore.Razor.Language.xml",
+        "tools/netcoreapp3.0/Microsoft.CodeAnalysis.CSharp.dll",
+        "tools/netcoreapp3.0/Microsoft.CodeAnalysis.Razor.dll",
+        "tools/netcoreapp3.0/Microsoft.CodeAnalysis.Razor.xml",
+        "tools/netcoreapp3.0/Microsoft.CodeAnalysis.dll",
+        "tools/netcoreapp3.0/Newtonsoft.Json.dll",
+        "tools/netcoreapp3.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/netcoreapp3.0/cs/Microsoft.CodeAnalysis.resources.dll",
+        "tools/netcoreapp3.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/netcoreapp3.0/de/Microsoft.CodeAnalysis.resources.dll",
+        "tools/netcoreapp3.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/netcoreapp3.0/es/Microsoft.CodeAnalysis.resources.dll",
+        "tools/netcoreapp3.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/netcoreapp3.0/fr/Microsoft.CodeAnalysis.resources.dll",
+        "tools/netcoreapp3.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/netcoreapp3.0/it/Microsoft.CodeAnalysis.resources.dll",
+        "tools/netcoreapp3.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/netcoreapp3.0/ja/Microsoft.CodeAnalysis.resources.dll",
+        "tools/netcoreapp3.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/netcoreapp3.0/ko/Microsoft.CodeAnalysis.resources.dll",
+        "tools/netcoreapp3.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/netcoreapp3.0/pl/Microsoft.CodeAnalysis.resources.dll",
+        "tools/netcoreapp3.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/netcoreapp3.0/pt-BR/Microsoft.CodeAnalysis.resources.dll",
+        "tools/netcoreapp3.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/netcoreapp3.0/ru/Microsoft.CodeAnalysis.resources.dll",
+        "tools/netcoreapp3.0/rzc.deps.json",
+        "tools/netcoreapp3.0/rzc.dll",
+        "tools/netcoreapp3.0/rzc.runtimeconfig.json",
+        "tools/netcoreapp3.0/rzc.xml",
+        "tools/netcoreapp3.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/netcoreapp3.0/tr/Microsoft.CodeAnalysis.resources.dll",
+        "tools/netcoreapp3.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/netcoreapp3.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll",
+        "tools/netcoreapp3.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/netcoreapp3.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll"
+      ]
+    },
     "Microsoft.NETCore.Platforms/3.1.0": {
       "sha512": "z7aeg8oHln2CuNulfhiLYxCVMPEwBl3rzicjvIX+4sUuCwvXw5oXQEtbiU2c0z4qYL5L3Kmx0mMA/+t/SbY67w==",
       "type": "package",
@@ -2229,6 +2388,45 @@
         "newtonsoft.json.nuspec"
       ]
     },
+    "Pipelines.Sockets.Unofficial/2.2.2": {
+      "sha512": "Bhk0FWxH1paI+18zr1g5cTL+ebeuDcBCR+rRFO+fKEhretgjs7MF2Mc1P64FGLecWp4zKCUOPzngBNrqVyY7Zg==",
+      "type": "package",
+      "path": "pipelines.sockets.unofficial/2.2.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net461/Pipelines.Sockets.Unofficial.dll",
+        "lib/net461/Pipelines.Sockets.Unofficial.xml",
+        "lib/net472/Pipelines.Sockets.Unofficial.dll",
+        "lib/net472/Pipelines.Sockets.Unofficial.xml",
+        "lib/net5.0/Pipelines.Sockets.Unofficial.dll",
+        "lib/net5.0/Pipelines.Sockets.Unofficial.xml",
+        "lib/netcoreapp3.1/Pipelines.Sockets.Unofficial.dll",
+        "lib/netcoreapp3.1/Pipelines.Sockets.Unofficial.xml",
+        "lib/netstandard2.0/Pipelines.Sockets.Unofficial.dll",
+        "lib/netstandard2.0/Pipelines.Sockets.Unofficial.xml",
+        "lib/netstandard2.1/Pipelines.Sockets.Unofficial.dll",
+        "lib/netstandard2.1/Pipelines.Sockets.Unofficial.xml",
+        "pipelines.sockets.unofficial.2.2.2.nupkg.sha512",
+        "pipelines.sockets.unofficial.nuspec"
+      ]
+    },
+    "RabbitMQ.Client/6.5.0": {
+      "sha512": "9hY5HiWPtCla1/l0WmXmLnqoX7iKE3neBQUWnetIJrRpOvTbO//XQfQDh++xgHCshL40Kv/6bR0HDkmJz46twg==",
+      "type": "package",
+      "path": "rabbitmq.client/6.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lib/net461/RabbitMQ.Client.dll",
+        "lib/net461/RabbitMQ.Client.xml",
+        "lib/netstandard2.0/RabbitMQ.Client.dll",
+        "lib/netstandard2.0/RabbitMQ.Client.xml",
+        "rabbitmq.client.6.5.0.nupkg.sha512",
+        "rabbitmq.client.nuspec"
+      ]
+    },
     "runtime.native.System/4.3.0": {
       "sha512": "c/qWt2LieNZIj1jGnVNsE2Kl23Ya2aSTBuXMD6V7k9KWr6l16Tqdwq+hJScEpWER9753NWC8h96PaVNY5Ld7Jw==",
       "type": "package",
@@ -2240,6 +2438,27 @@
         "lib/netstandard1.0/_._",
         "runtime.native.system.4.3.0.nupkg.sha512",
         "runtime.native.system.nuspec"
+      ]
+    },
+    "StackExchange.Redis/2.6.104": {
+      "sha512": "ccfmWZifNOk2c+co6urH9BeyUzmbqalyksVy6Ma28xNTLT3Nrng+5OX+EB5KrTsWHykoZTGzTM3L7ndySuxEuA==",
+      "type": "package",
+      "path": "stackexchange.redis/2.6.104",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net461/StackExchange.Redis.dll",
+        "lib/net461/StackExchange.Redis.xml",
+        "lib/net472/StackExchange.Redis.dll",
+        "lib/net472/StackExchange.Redis.xml",
+        "lib/net5.0/StackExchange.Redis.dll",
+        "lib/net5.0/StackExchange.Redis.xml",
+        "lib/netcoreapp3.1/StackExchange.Redis.dll",
+        "lib/netcoreapp3.1/StackExchange.Redis.xml",
+        "lib/netstandard2.0/StackExchange.Redis.dll",
+        "lib/netstandard2.0/StackExchange.Redis.xml",
+        "stackexchange.redis.2.6.104.nupkg.sha512",
+        "stackexchange.redis.nuspec"
       ]
     },
     "System.Collections/4.3.0": {
@@ -3301,6 +3520,32 @@
         "system.io.filesystem.primitives.nuspec"
       ]
     },
+    "System.IO.Pipelines/5.0.1": {
+      "sha512": "qEePWsaq9LoEEIqhbGe6D5J8c9IqQOUuTzzV6wn1POlfdLkJliZY3OlB0j0f17uMWlqZYjH7txj+2YbyrIA8Yg==",
+      "type": "package",
+      "path": "system.io.pipelines/5.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.IO.Pipelines.dll",
+        "lib/net461/System.IO.Pipelines.xml",
+        "lib/netcoreapp3.0/System.IO.Pipelines.dll",
+        "lib/netcoreapp3.0/System.IO.Pipelines.xml",
+        "lib/netstandard1.3/System.IO.Pipelines.dll",
+        "lib/netstandard1.3/System.IO.Pipelines.xml",
+        "lib/netstandard2.0/System.IO.Pipelines.dll",
+        "lib/netstandard2.0/System.IO.Pipelines.xml",
+        "ref/netcoreapp2.0/System.IO.Pipelines.dll",
+        "ref/netcoreapp2.0/System.IO.Pipelines.xml",
+        "system.io.pipelines.5.0.1.nupkg.sha512",
+        "system.io.pipelines.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
     "System.Linq/4.3.0": {
       "sha512": "5DbqIUpsDp0dFftytzuMmc0oeMdQwjcP/EWxsksIz/w1TcFRkZ3yKKz0PqiYFMmEwPSWw+qNVqD7PJ889JzHbw==",
       "type": "package",
@@ -3370,6 +3615,29 @@
         "ref/xamarinwatchos10/_._",
         "system.linq.4.3.0.nupkg.sha512",
         "system.linq.nuspec"
+      ]
+    },
+    "System.Memory/4.5.5": {
+      "sha512": "XIWiDvKPXaTveaB7HVganDlOCRoj03l+jrwNvcge/t8vhGYKvqV+dMv6G4SAX2NoNmN0wZfVPTAlFwZcZvVOUw==",
+      "type": "package",
+      "path": "system.memory/4.5.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Memory.dll",
+        "lib/net461/System.Memory.xml",
+        "lib/netcoreapp2.1/_._",
+        "lib/netstandard1.1/System.Memory.dll",
+        "lib/netstandard1.1/System.Memory.xml",
+        "lib/netstandard2.0/System.Memory.dll",
+        "lib/netstandard2.0/System.Memory.xml",
+        "ref/netcoreapp2.1/_._",
+        "system.memory.4.5.5.nupkg.sha512",
+        "system.memory.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
       ]
     },
     "System.Net.NameResolution/4.3.0": {
@@ -5070,6 +5338,35 @@
         "system.threading.nuspec"
       ]
     },
+    "System.Threading.Channels/7.0.0": {
+      "sha512": "qmeeYNROMsONF6ndEZcIQ+VxR4Q/TX/7uIVLJqtwIWL7dDWeh0l1UIqgo4wYyjG//5lUNhwkLDSFl+pAWO6oiA==",
+      "type": "package",
+      "path": "system.threading.channels/7.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.Threading.Channels.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/System.Threading.Channels.targets",
+        "lib/net462/System.Threading.Channels.dll",
+        "lib/net462/System.Threading.Channels.xml",
+        "lib/net6.0/System.Threading.Channels.dll",
+        "lib/net6.0/System.Threading.Channels.xml",
+        "lib/net7.0/System.Threading.Channels.dll",
+        "lib/net7.0/System.Threading.Channels.xml",
+        "lib/netstandard2.0/System.Threading.Channels.dll",
+        "lib/netstandard2.0/System.Threading.Channels.xml",
+        "lib/netstandard2.1/System.Threading.Channels.dll",
+        "lib/netstandard2.1/System.Threading.Channels.xml",
+        "system.threading.channels.7.0.0.nupkg.sha512",
+        "system.threading.channels.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
     "System.Threading.Tasks/4.3.0": {
       "sha512": "LbSxKEdOUhVe8BezB/9uOGGppt+nZf6e1VFyw6v3DN6lqitm0OSn2uXMOdtP0M3W4iMcqcivm2J6UgqiwwnXiA==",
       "type": "package",
@@ -5475,10 +5772,13 @@
     "net5.0": [
       "Microsoft.EntityFrameworkCore >= 5.0.17",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.17",
+      "Microsoft.NET.Sdk.Razor >= 3.1.32",
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.10.9",
+      "RabbitMQ.Client >= 6.5.0",
       "ShopApp.BLL >= 1.0.0",
       "ShopApp.BLL.Interfaces >= 1.0.0",
-      "ShopApp.TelegramBot >= 1.0.0"
+      "ShopApp.TelegramBot >= 1.0.0",
+      "StackExchange.Redis >= 2.6.104"
     ]
   },
   "packageFolders": {
@@ -5545,9 +5845,21 @@
             "target": "Package",
             "version": "[5.0.17, )"
           },
+          "Microsoft.NET.Sdk.Razor": {
+            "target": "Package",
+            "version": "[3.1.32, )"
+          },
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
             "target": "Package",
             "version": "[1.10.9, )"
+          },
+          "RabbitMQ.Client": {
+            "target": "Package",
+            "version": "[6.5.0, )"
+          },
+          "StackExchange.Redis": {
+            "target": "Package",
+            "version": "[2.6.104, )"
           }
         },
         "imports": [

@@ -40,7 +40,7 @@ namespace ShopApp.TelegramMessage
                 case "/start":
                     {
                         //Console.WriteLine(update.Message.Text);
-                        await client.SendTextMessageAsync(update.Message.Chat.Id, "Привет, введите свой логин ");
+                        await client.SendTextMessageAsync(update.Message.Chat.Id, $"Привет, введите свой логин {update.Message.Chat.Id}");
                         //isStarting = true;                       
                         break;
                     }

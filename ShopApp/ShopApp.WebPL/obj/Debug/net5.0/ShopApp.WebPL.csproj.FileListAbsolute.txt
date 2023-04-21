@@ -28,7 +28,6 @@ D:\Разработка web-приложений\web-project-shop\ShopApp\ShopAp
 D:\Разработка web-приложений\web-project-shop\ShopApp\ShopApp.WebPL\obj\Debug\net5.0\ShopApp.WebPL.RazorAssemblyInfo.cs
 D:\Разработка web-приложений\web-project-shop\ShopApp\ShopApp.WebPL\obj\Debug\net5.0\staticwebassets\ShopApp.WebPL.StaticWebAssets.Manifest.cache
 D:\Разработка web-приложений\web-project-shop\ShopApp\ShopApp.WebPL\obj\Debug\net5.0\staticwebassets\ShopApp.WebPL.StaticWebAssets.xml
-D:\Разработка web-приложений\web-project-shop\ShopApp\ShopApp.WebPL\obj\Debug\net5.0\scopedcss\bundle\ShopApp.WebPL.styles.css
 D:\Разработка web-приложений\web-project-shop\ShopApp\ShopApp.WebPL\obj\Debug\net5.0\ShopApp.WebPL.TagHelpers.input.cache
 D:\Разработка web-приложений\web-project-shop\ShopApp\ShopApp.WebPL\obj\Debug\net5.0\ShopApp.WebPL.TagHelpers.output.cache
 D:\Разработка web-приложений\web-project-shop\ShopApp\ShopApp.WebPL\obj\Debug\net5.0\ShopApp.WebPL.RazorCoreGenerate.cache
@@ -87,3 +86,10 @@ D:\Разработка web-приложений\web-project-shop\ShopApp\ShopAp
 D:\Разработка web-приложений\web-project-shop\ShopApp\ShopApp.WebPL\bin\Debug\net5.0\ShopApp.TelegramBot.pdb
 D:\Разработка web-приложений\web-project-shop\ShopApp\ShopApp.WebPL\obj\Debug\net5.0\Razor\Views\Users\UserById.cshtml.g.cs
 D:\Разработка web-приложений\web-project-shop\ShopApp\ShopApp.WebPL\obj\Debug\net5.0\ShopApp.WebPL.csproj.AssemblyReference.cache
+D:\Разработка web-приложений\web-project-shop\ShopApp\ShopApp.WebPL\bin\Debug\net5.0\RabbitMQ.Client.dll
+D:\Разработка web-приложений\web-project-shop\ShopApp\ShopApp.WebPL\bin\Debug\net5.0\System.Threading.Channels.dll
+D:\Разработка web-приложений\web-project-shop\ShopApp\ShopApp.WebPL\bin\Debug\net5.0\Pipelines.Sockets.Unofficial.dll
+D:\Разработка web-приложений\web-project-shop\ShopApp\ShopApp.WebPL\bin\Debug\net5.0\StackExchange.Redis.dll
+D:\Разработка web-приложений\web-project-shop\ShopApp\ShopApp.WebPL\bin\Debug\net5.0\System.IO.Pipelines.dll
+D:\Разработка web-приложений\web-project-shop\ShopApp\ShopApp.WebPL\obj\Debug\net5.0\ShopApp.WebPL.Properties.Resources.resources
+D:\Разработка web-приложений\web-project-shop\ShopApp\ShopApp.WebPL\obj\Debug\net5.0\ShopApp.WebPL.csproj.GenerateResource.cache

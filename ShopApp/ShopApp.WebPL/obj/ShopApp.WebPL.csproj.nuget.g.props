@@ -19,8 +19,10 @@
   </PropertyGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <Import Project="$(NuGetPackageRoot)microsoft.visualstudio.azure.containers.tools.targets\1.10.9\build\Microsoft.VisualStudio.Azure.Containers.Tools.Targets.props" Condition="Exists('$(NuGetPackageRoot)microsoft.visualstudio.azure.containers.tools.targets\1.10.9\build\Microsoft.VisualStudio.Azure.Containers.Tools.Targets.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.net.sdk.razor\3.1.32\build\netstandard2.0\Microsoft.NET.Sdk.Razor.props" Condition="Exists('$(NuGetPackageRoot)microsoft.net.sdk.razor\3.1.32\build\netstandard2.0\Microsoft.NET.Sdk.Razor.props')" />
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <PkgMicrosoft_VisualStudio_Azure_Containers_Tools_Targets Condition=" '$(PkgMicrosoft_VisualStudio_Azure_Containers_Tools_Targets)' == '' ">C:\Users\ritak\.nuget\packages\microsoft.visualstudio.azure.containers.tools.targets\1.10.9</PkgMicrosoft_VisualStudio_Azure_Containers_Tools_Targets>
+    <PkgMicrosoft_NET_Sdk_Razor Condition=" '$(PkgMicrosoft_NET_Sdk_Razor)' == '' ">C:\Users\ritak\.nuget\packages\microsoft.net.sdk.razor\3.1.32</PkgMicrosoft_NET_Sdk_Razor>
   </PropertyGroup>
 </Project>

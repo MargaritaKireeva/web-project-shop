@@ -6,6 +6,8 @@ using ShopApp.BLL.Interfaces;
 using ShopApp.Entities;
 using ShopApp.TelegramMessage;
 using ShopApp.WebPL.Models;
+using ShopApp.WebPL.RabbitMQ;
+using ShopApp.WebPL.Redis;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,11 +20,15 @@ namespace ShopApp.WebPL.Controllers
     {
         public IUsersBL _usersBL { get; set; }
         public TelegramBot telegramBot { get; set; }
+        public RabbitMQClient rabbit { get; set; }
+        public RedisStorageClient redis { get; set; }
 
         public UsersController(IUsersBL usersBL)
         {
             _usersBL = usersBL;
             telegramBot = new TelegramBot(_usersBL);
+            rabbit = SingleRabbitAndRedis.Instance.Rabbit;
+            redis = SingleRabbitAndRedis.Instance.Redis;
 
         }
         [HttpGet]
@@ -36,24 +42,32 @@ namespace ShopApp.WebPL.Controllers
         }
         [HttpPost]
         public async Task<IActionResult> GetPassword(string login, string password)
-        {
-            var user = await _usersBL.GetByLogin(login);
-            
+        {           
+            var user = redis.GetUser(login);
+            if (user == null)
+            {
+                user = await _usersBL.GetByLogin(login);
+                rabbit.Send($"Пользователь {login} извлечен из базы данных");
+            }
+            else rabbit.Send($"Пользователь {login} извлечен из кэша");
             if (user != null && user.Password == password)
             {
                 var identity = new CustomUserIdentity(login, password);
                 await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, new ClaimsPrincipal(identity));
+                
                 if (await _usersBL.IsAvailablePassword(password))
                 {
                     await _usersBL.ReduceAttemptsCount(password);
+                    redis.SetUser(login, user, 60);
                 }
                 else
-                {
-
+                {                   
                     string error = "Количество попыток ввода этого пароля закончились. Запросите новый.";
+                    rabbit.Send(error);
                     return RedirectToAction("GetPassword", "Users", new { login, error });
                 }
             }
+            rabbit.Send($"Выполнен вход: логин - {login} пароль - {password} ");
             return RedirectToAction("UserById", "Users", new { user.ID });
         }
         [HttpGet]
@@ -67,13 +81,17 @@ namespace ShopApp.WebPL.Controllers
         {
             if (!ModelState.IsValid)
             {
-                ModelState.AddModelError("", "Введены неккоректные данные!");
+                string error = "Введены неккоректные данные!";
+                ModelState.AddModelError("", error);
+                rabbit.Send(error);
                 return View(model);
             }
             User user = await _usersBL.GetByLogin(model.Login);
             if (user != null)
             {
-                ModelState.AddModelError("", "Пользователь с таким логином уже есть");
+                string error = "Пользователь с таким логином уже есть";
+                ModelState.AddModelError("", error);
+                rabbit.Send(error);
                 return View(model);
             }
             user = new User
@@ -84,7 +102,8 @@ namespace ShopApp.WebPL.Controllers
                 Birthday = model.Birthday,
             };
             await _usersBL.Add(user);
-
+            string message = $"Зарегистрирован пользователь {model.Login}";
+            rabbit.Send(message);
             return RedirectToAction("GetPassword", "Users", new { model.Login });
         }
         [Authorize]
@@ -112,6 +131,11 @@ namespace ShopApp.WebPL.Controllers
             }
             else return RedirectToAction("Register", "Users");
             //return Redirect("/");
+        }
+        public async Task<IActionResult> Logout()
+        {
+            await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
+            return RedirectToAction("Login", "Users");
         }
     }
 }

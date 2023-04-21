@@ -467,9 +467,21 @@
               "target": "Package",
               "version": "[5.0.17, )"
             },
+            "Microsoft.NET.Sdk.Razor": {
+              "target": "Package",
+              "version": "[3.1.32, )"
+            },
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
               "version": "[1.10.9, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.6.104, )"
             }
           },
           "imports": [
