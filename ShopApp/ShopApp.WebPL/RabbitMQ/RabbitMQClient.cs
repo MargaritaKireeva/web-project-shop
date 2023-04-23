@@ -15,7 +15,7 @@ namespace ShopApp.WebPL.RabbitMQ
         public RabbitMQClient()
         {
             QUEUE = "NOTIFICATION_QUEUE";
-            rabbitHost = "localhost";
+            rabbitHost = "rabbitmq";
             rabbitFactory = new ConnectionFactory()
             {
                 //Uri = new Uri("amqp://guest:guest@localhost:5672/"),

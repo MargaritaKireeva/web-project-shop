@@ -23,7 +23,7 @@ namespace ShopApp.WebPL.Redis
         {
 
 
-            this._host = "localhost";
+            this._host = "redis";
             this._port = "6379";
             this._password = null;
 
