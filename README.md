@@ -1,5 +1,5 @@
 # Web-приложение книжного магазина
-C# (MVC), SQL (MSSQL), HTML, CSS
+C# (MVC), SQL (MSSQL), HTML, CSS, Docker
 Работа приложения представлена на видео
 
 
